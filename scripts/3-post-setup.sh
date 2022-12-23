@@ -59,6 +59,12 @@ echo -ne "
                         Installing XQP and XDO
 -------------------------------------------------------------------------
 "
+
+cp -r ~/nabucodonosor/configs/.config/* ~/.config/
+cp ~/nabucodonosor/configs/.Xresources ~/
+cp ~/nabucodonosor/configs/.xinitrc ~/
+cp ~/nabucodonosor/configs/.zshrc ~/
+
 #XQP -----------------------------------------------------------------
 cd ~/Downloads
 git clone https://github.com/baskerville/xqp.git
@@ -78,6 +84,7 @@ cd ~
 rm -rf ~/Downloads/xdo
 rm -rf ~/Downloads/xqp
 
+mkdir ~/Downloads
 echo -ne "
 -------------------------------------------------------------------------
                     Enabling Essential Services
