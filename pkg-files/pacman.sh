@@ -27,6 +27,7 @@ PKGS=(
     'nautilus'              # file manager
     'bspwm'                 # Window Manager
     'sxhkd'                 # Hotkey Daemon
+    'networkmanager'
 
 "
 
@@ -251,4 +252,3 @@ echo -ne "
                         Installing AUR Packages
 -------------------------------------------------------------------------
 "
-sh ./03-paru.sh

@@ -80,6 +80,7 @@ echo -ne "
 # stop the script and move on, not installing any more packages below that line
 
 sh $HOME/nabucodonosor/pkg-files/pacman.sh
+sh $HOME/nabucodonosor/pkg-files/paru.sh
 
 echo -ne "
 -------------------------------------------------------------------------
@@ -187,6 +188,9 @@ if [[ ${FS} == "luks" ]]; then
 fi
 echo -ne "
 -------------------------------------------------------------------------
-                    SYSTEM READY FOR 2-user.sh
+                    SYSTEM READY FOR post.sh
 -------------------------------------------------------------------------
 "
+
+
+sh $HOME/nabucodonosor/pkg-files/post.sh
