@@ -1,0 +1,21 @@
+T 1660609938 19*	Now talking on 22#neovim
+T 1660609938 22*	Topic for 22#neovim is: neovim is a great text editor | https://neovim.io | https://github.com/sponsors/neovim | bridged via matrix (#neovim:matrix.org, https://gitter.im/neovim/neovim)
+T 1660609938 22*	Topic for 22#neovim set by 26bfredl (24Fri Jun 18 10:28:51 2021)
+T 1660609959 19*	Now talking on 22#neovim
+T 1660609959 22*	Topic for 22#neovim is: neovim is a great text editor | https://neovim.io | https://github.com/sponsors/neovim | bridged via matrix (#neovim:matrix.org, https://gitter.im/neovim/neovim)
+T 1660609959 22*	Topic for 22#neovim set by 26bfredl (24Fri Jun 18 10:28:51 2021)
+T 1660610008 23*	sfm (~sfmason@47-201-239-206.plmt.fl.frontiernet.net23) has joined
+T 1660610811 24*	jacky has quit (Quit: jacky)
+T 1660610845 23*	jacky (~jacky@user/jackyalcine23) has joined
+T 1660616744 19*	Now talking on 22#neovim
+T 1660616744 22*	Topic for 22#neovim is: neovim is a great text editor | https://neovim.io | https://github.com/sponsors/neovim | bridged via matrix (#neovim:matrix.org, https://gitter.im/neovim/neovim)
+T 1660616744 22*	Topic for 22#neovim set by 26bfredl (24Fri Jun 18 10:28:51 2021)
+T 1660616974 24*	masta`` has quit (Quit: Going offline, see ya! (www.adiirc.com))
+T 1660617109 24*	ublx has quit (Quit: ublx)
+T 1660658032 19*	Now talking on 22#neovim
+T 1660658032 22*	Topic for 22#neovim is: neovim is a great text editor | https://neovim.io | https://github.com/sponsors/neovim | bridged via matrix (#neovim:matrix.org, https://gitter.im/neovim/neovim)
+T 1660658032 22*	Topic for 22#neovim set by 26bfredl (24Fri Jun 18 10:28:51 2021)
+T 1660658075 24*	moldorcoder7 has quit (Ping timeout: 256 seconds)
+T 1660658687 24*	jacky has quit (Ping timeout: 256 seconds)
+T 1660659163 23*	waldo (~waldo@user/waldo23) has joined
+T 1660659205 24*	gunner has quit (Quit: This computer has gone to sleep)

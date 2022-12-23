@@ -1,0 +1,111 @@
+T 1660609926 19*	Now talking on 22#python
+T 1660609926 22*	Topic for 22#python is: Anything Python is on-topic. | Don't paste, use https://bpa.st/+python | Questions about this channel? https://www.pound-python.org | CoC: https://j.mp/psf-coc | Tutorial: https://j.mp/PyTut | New programmer? https://j.mp/23X7emF | Ops: #python-ops
+T 1660609926 22*	Topic for 22#python set by 26nedbat!~nedbat@python/psf/nedbat (24Fri Sep 17 18:57:50 2021)
+T 1660609942 18<KirkMcDonald18>	eyepeetee: The original intent here is the ability to make a dict like: `dict(x=123, y=456)`
+T 1660609959 19*	Now talking on 22#python
+T 1660609959 22*	Topic for 22#python is: Anything Python is on-topic. | Don't paste, use https://bpa.st/+python | Questions about this channel? https://www.pound-python.org | CoC: https://j.mp/psf-coc | Tutorial: https://j.mp/PyTut | New programmer? https://j.mp/23X7emF | Ops: #python-ops
+T 1660609959 22*	Topic for 22#python set by 26nedbat!~nedbat@python/psf/nedbat (24Fri Sep 17 18:57:50 2021)
+T 1660609997 23*	cthaeh^ (~cthaeh@50.231.67.4323) has joined
+T 1660609997 18<eyepeetee18>	KirkMcDonald - why wouldn't the intention equally be: `dict(d1, x=123, y=456)`
+T 1660610009 18<KirkMcDonald18>	This works, certainly.
+T 1660610036 18<eyepeetee18>	i just figure it was a tool meant to serve a multitude of purposes like most things, but, you would know better than i do
+T 1660610047 18<eyepeetee18>	i'm a novice :)
+T 1660610053 18<eyepeetee18>	at least compared to folks here
+T 1660610055 24*	Barones has quit (Remote host closed the connection)
+T 1660610064 23*	ayustae (Thunderbir@gateway/vpn/protonvpn/ayustae23) has joined
+T 1660610073 23*	Barones (~Barones@user/Barones23) has joined
+T 1660610086 24*	ExeciN has quit (Remote host closed the connection)
+T 1660610102 23*	akaWolf (~akaWolf@akawolf.org23) has joined
+T 1660610104 18<KirkMcDonald18>	It's an agglomeration of features, added for their utility, and kept so long as they aren't actually harmful.
+T 1660610222 23*	Haven1 (~Haven@2607:fea8:6562:6c00:74d8:b77b:dee9:dd6623) has joined
+T 1660610249 23*	nuclearg1 (~nucleargr@user/nuclearg123) has joined
+T 1660610251 23*	jpn (~jpn@user/jpn23) has joined
+T 1660610275 24*	padraigd has quit (Ping timeout: 248 seconds)
+T 1660610290 24*	Milos has quit (Quit: ZNC 1.8.2 - https://znc.in)
+T 1660610311 23*	Milos (~Milos@user/milos23) has joined
+T 1660610323 24*	ayustae has quit (Client Quit)
+T 1660610328 23*	tetheredgoat (~hidden_go@2600:1700:f570:e4b0::2623) has joined
+T 1660610535 24*	nuclearg1 has quit (Ping timeout: 252 seconds)
+T 1660610543 24*	jpn has quit (Ping timeout: 256 seconds)
+T 1660610572 23*	ottoshmidt (~ottoshmid@188.129.240.18323) has joined
+T 1660610675 18<dba18>	honestly what defines a complex, modern applications? most job requirement request this in their qualification, how can I prove it?
+T 1660610809 18<rxfh18>	take a simple application and convert it into microservices running in containers, preferably inside kubernetes. boom done ;)
+T 1660610844 18<aod18>	dba why would i answerd that?
+T 1660616744 19*	Now talking on 22#python
+T 1660616744 22*	Topic for 22#python is: Anything Python is on-topic. | Don't paste, use https://bpa.st/+python | Questions about this channel? https://www.pound-python.org | CoC: https://j.mp/psf-coc | Tutorial: https://j.mp/PyTut | New programmer? https://j.mp/23X7emF | Ops: #python-ops
+T 1660616744 22*	Topic for 22#python set by 26nedbat!~nedbat@python/psf/nedbat (24Fri Sep 17 18:57:50 2021)
+T 1660616761 24*	mantra has quit (Ping timeout: 252 seconds)
+T 1660616772 23*	downeast (~downeast@user/downeast23) has joined
+T 1660616773 23*	jpn (~jpn@user/jpn23) has joined
+T 1660616789 23*	kannon (~NK@135-180-47-54.fiber.dynamic.sonic.net23) has joined
+T 1660616871 24*	ssbr has quit (Remote host closed the connection)
+T 1660616890 23*	ssbr (~ssbr@python/site-packages/ssbr23) has joined
+T 1660616974 24*	masta`` has quit (Quit: Going offline, see ya! (www.adiirc.com))
+T 1660617003 24*	throstur has quit (Ping timeout: 252 seconds)
+T 1660617027 24*	jpn has quit (Ping timeout: 248 seconds)
+T 1660617084 23*	nuclearg1 (~nucleargr@user/nuclearg123) has joined
+T 1660617237 23*	LesterGreen (~Beet@92.119.19.22023) has joined
+T 1660658032 19*	Now talking on 22#python
+T 1660658032 22*	Topic for 22#python is: Anything Python is on-topic. | Don't paste, use https://bpa.st/+python | Questions about this channel? https://www.pound-python.org | CoC: https://j.mp/psf-coc | Tutorial: https://j.mp/PyTut | New programmer? https://j.mp/23X7emF | Ops: #python-ops
+T 1660658032 22*	Topic for 22#python set by 26nedbat!~nedbat@python/psf/nedbat (24Fri Sep 17 18:57:50 2021)
+T 1660658075 24*	moldorcoder7 has quit (Ping timeout: 256 seconds)
+T 1660658092 23*	spetrosi (~spetrosi@ip-86-49-234-51.bb.vodafone.cz23) has joined
+T 1660658167 24*	gurkenglas has quit (Ping timeout: 268 seconds)
+T 1660658176 18<CrtxReavr18>	What's that website that documents the strptime formats so nicely?
+T 1660658192 24*	28hoshy is now known as 18hoshyar
+T 1660658193 24*	x003fgqwe has quit (Quit: Connection closed for inactivity)
+T 1660658233 18<han-solo18>	https://pyformat.info/ # ?
+T 1660658240 18<han-solo18>	er, nope
+T 1660658248 18<han-solo18>	my bad
+T 1660658278 18<CrtxReavr18>	Was something like strptime dot org, but that's not it.
+T 1660658288 18<grym18>	strftime.org
+T 1660658304 18<CrtxReavr18>	Yes, that's the one.
+T 1660658310 23*	kts (~kts@103.73.237.19423) has joined
+T 1660658316 18<grym18>	which i'm always slightly sad has nothing to do with spectrotemporal receptive fields :)
+T 1660658333 23*	arinov_ (~arinov@31.143.75.5923) has joined
+T 1660658352 24*	jeho has quit (Ping timeout: 268 seconds)
+T 1660658378 18<CrtxReavr18>	Anyways, bookmark that URL - always good to keep in your back pocket.
+T 1660658406 18<CrtxReavr18>	^^^acresearch
+T 1660658433 23*	manti7 (~manti7@176.10.104.9423) has joined
+T 1660658436 18<han-solo18>	there was another one similar to 'pyformat' for format strings, i forgot that one
+T 1660658437 23*	foobaz212 (~foobaz212@152.37.103.8023) has joined
+T 1660658468 18<grym18>	fstring.help
+T 1660658473 24*	AquaL1te has quit (Quit: leaving)
+T 1660658482 18<grym18>	(courtesy of The-Compiler )
+T 1660658485 18<han-solo18>	grym: thanks
+T 1660658494 18<han-solo18>	ah cool
+T 1660658499 24*	arinov has quit (Ping timeout: 248 seconds)
+T 1660658554 24*	marduk has quit (Quit: The Lounge - https://thelounge.chat)
+T 1660658569 23*	varaindemian (uid73404@id-73404.ilkley.irccloud.com23) has joined
+T 1660658601 18<The-Compiler18>	\o/
+T 1660658609 18<The-Compiler18>	I almost forgot that exists
+T 1660658618 24*	qlixed has quit (Quit: That's all folks!!)
+T 1660658619 18<han-solo18>	:)
+T 1660658639 23*	qlixed (~qlixed@181.44.129.1823) has joined
+T 1660658660 23*	ari0x (~ari0x@user/ari0x23) has joined
+T 1660658670 18<grym18>	set it and forget it
+T 1660658697 23*	OptimisticOasis (~Optimisti@gateway/tor-sasl/optimisticoasis23) has joined
+T 1660658704 18<CrtxReavr18>	That's an easy to remember URL though.
+T 1660658718 24*	foobaz212 has quit (Ping timeout: 252 seconds)
+T 1660658721 24*	kts has quit (Ping timeout: 256 seconds)
+T 1660658722 18<CrtxReavr18>	(I'd not seen that one before though.)
+T 1660658723 18<The-Compiler18>	that was the goal!
+T 1660658734 18<The-Compiler18>	though people seem to mix it up with fstrings.help
+T 1660658735 18<grym18>	pyformat long in the tooth
+T 1660658811 18<CrtxReavr18>	fstringS.help seems to be typo-squated, but not used.
+T 1660658828 23*	Mattiaslndstrm (~Mattiasln@185.213.154.24423) has joined
+T 1660658841 24*	OptimisticOasis has quit (Remote host closed the connection)
+T 1660658842 18<CrtxReavr18>	No DNS records.
+T 1660658847 23*	vimart (~vimuster@sgyl-44-b2-v4wan-165522-cust387.vm6.cable.virginm.net23) has joined
+T 1660658861 23*	OptimisticOasis (~Optimisti@gateway/tor-sasl/optimisticoasis23) has joined
+T 1660658910 18<The-Compiler18>	the domain is available, I just didn't really want to get yet another one
+T 1660658961 24*	ari0x has quit (Quit: Client closed)
+T 1660658997 18<CrtxReavr18>	Hmmmm. . .
+T 1660659015 18<CrtxReavr18>	Yeah the .help TLD does some strange whois mojo.
+T 1660659107 24*	admin123 has quit (Ping timeout: 248 seconds)
+T 1660659108 23*	gitesh (uid423739@id-423739.ilkley.irccloud.com23) has joined
+T 1660659124 23*	zev (~zev@user/zev23) has joined
+T 1660659168 24*	Jigsy has quit (Killed (NickServ (GHOST command used by Jigsy`)))
+T 1660659171 24*	georgeisbot has quit (Ping timeout: 248 seconds)
+T 1660659172 23*	Jigsy` (~Jigsy@user/jigsy23) has joined
+T 1660659208 24*	Atque has quit (Ping timeout: 268 seconds)

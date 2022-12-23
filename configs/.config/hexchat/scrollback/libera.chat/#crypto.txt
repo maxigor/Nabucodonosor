@@ -1,0 +1,23 @@
+T 1660609960 19*	Now talking on 22#crypto
+T 1660609960 22*	Topic for 22#crypto is: Cryptography theory and practice, not cryptocurrency (try ##altcoins -- or better yet, just don't) | Resources: https://gist.github.com/atoponce/ef0c369546abb4b2936f8725b95909f6 | Morality is an inextricable part of our work: https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf
+T 1660609960 22*	Topic for 22#crypto set by 26hlieberman (24Sun Dec 26 13:56:28 2021)
+T 1660610102 23*	akaWolf (~akaWolf@akawolf.org23) has joined
+T 1660610121 24*	chiselfuse has quit (Remote host closed the connection)
+T 1660610221 18<halosghost18>	also, of any of the versions that have been made so far? no.
+T 1660610223 23*	Haven1 (~Haven@2607:fea8:6562:6c00:74d8:b77b:dee9:dd6623) has joined
+T 1660610230 23*	chiselfuse (~chiselfus@user/chiselfuse23) has joined
+T 1660610311 24*	halosghost has quit (Quit: WeeChat 3.6)
+T 1660616744 19*	Now talking on 22#crypto
+T 1660616744 22*	Topic for 22#crypto is: Cryptography theory and practice, not cryptocurrency (try ##altcoins -- or better yet, just don't) | Resources: https://gist.github.com/atoponce/ef0c369546abb4b2936f8725b95909f6 | Morality is an inextricable part of our work: https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf
+T 1660616744 22*	Topic for 22#crypto set by 26hlieberman (24Sun Dec 26 13:56:28 2021)
+T 1660616762 23*	Laborratte6 (~Laborratt@port-92-196-36-46.dynamic.as20676.net23) has joined
+T 1660616805 24*	Laborratte5 has quit (Ping timeout: 252 seconds)
+T 1660658032 19*	Now talking on 22#crypto
+T 1660658032 22*	Topic for 22#crypto is: Cryptography theory and practice, not cryptocurrency (try ##altcoins -- or better yet, just don't) | Resources: https://gist.github.com/atoponce/ef0c369546abb4b2936f8725b95909f6 | Morality is an inextricable part of our work: https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf
+T 1660658032 22*	Topic for 22#crypto set by 26hlieberman (24Sun Dec 26 13:56:28 2021)
+T 1660658378 24*	byteskeptical has quit (Quit: Lost terminal)
+T 1660658438 23*	foobaz212 (~foobaz212@152.37.103.8023) has joined
+T 1660658658 23*	BootLayer (~BootLayer@user/BootLayer23) has joined
+T 1660658660 23*	ari0x (~ari0x@user/ari0x23) has joined
+T 1660658718 24*	foobaz212 has quit (Ping timeout: 252 seconds)
+T 1660658961 24*	ari0x has quit (Quit: Client closed)

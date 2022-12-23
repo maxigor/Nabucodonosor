@@ -1,0 +1,45 @@
+T 1660609960 19*	Now talking on 22#security
+T 1660609960 22*	Topic for 22#security is: Welcome to Computer, Network & Physical #Security | Off-topic is allowed; on-topic comes first
+T 1660609960 22*	Topic for 22#security set by 26ajak!~ajak@gentoo/developer/ajak (24Thu Nov 25 17:05:01 2021)
+T 1660609978 24*	zev has quit (Quit: WeeChat 3.5)
+T 1660610121 24*	Millicent has quit (Quit: ZNC 1.8.2 - https://znc.in)
+T 1660610121 24*	chiselfuse has quit (Remote host closed the connection)
+T 1660610147 24*	Netwolf has quit (Ping timeout: 248 seconds)
+T 1660610223 23*	Haven1 (~Haven@2607:fea8:6562:6c00:74d8:b77b:dee9:dd6623) has joined
+T 1660610230 23*	chiselfuse (~chiselfus@user/chiselfuse23) has joined
+T 1660610249 23*	nuclearg1 (~nucleargr@user/nuclearg123) has joined
+T 1660610290 24*	Milos has quit (Quit: ZNC 1.8.2 - https://znc.in)
+T 1660610311 23*	Milos (~Milos@user/milos23) has joined
+T 1660610328 23*	tetheredgoat (~hidden_go@2600:1700:f570:e4b0::2623) has joined
+T 1660610462 23*	vysn (~vysn@user/vysn23) has joined
+T 1660610464 23*	Millicent (~millicent@user/Millicent23) has joined
+T 1660610535 24*	nuclearg1 has quit (Ping timeout: 252 seconds)
+T 1660610656 23*	Netwolf (~Netwolf@my6.eu23) has joined
+T 1660610834 23*	Georgia292 (~Georgia29@96.44.142.75.adsl.inet-telecom.org23) has joined
+T 1660616744 19*	Now talking on 22#security
+T 1660616744 22*	Topic for 22#security is: Welcome to Computer, Network & Physical #Security | Off-topic is allowed; on-topic comes first
+T 1660616744 22*	Topic for 22#security set by 26ajak!~ajak@gentoo/developer/ajak (24Thu Nov 25 17:05:01 2021)
+T 1660616757 23*	TMan459 (~TMan459@068-113-237-067.res.spectrum.com23) has joined
+T 1660616762 23*	Laborratte6 (~Laborratt@port-92-196-36-46.dynamic.as20676.net23) has joined
+T 1660616805 24*	Laborratte5 has quit (Ping timeout: 252 seconds)
+T 1660616974 24*	masta`` has quit (Quit: Going offline, see ya! (www.adiirc.com))
+T 1660617084 23*	nuclearg1 (~nucleargr@user/nuclearg123) has joined
+T 1660658032 19*	Now talking on 22#security
+T 1660658032 22*	Topic for 22#security is: Welcome to Computer, Network & Physical #Security | Off-topic is allowed; on-topic comes first
+T 1660658032 22*	Topic for 22#security set by 26ajak!~ajak@gentoo/developer/ajak (24Thu Nov 25 17:05:01 2021)
+T 1660658310 23*	kts (~kts@103.73.237.19423) has joined
+T 1660658434 23*	manti7 (~manti7@176.10.104.9423) has joined
+T 1660658473 24*	AquaL1te has quit (Quit: leaving)
+T 1660658491 23*	redstarcomrade (uid99592@user/redstarcomrade23) has joined
+T 1660658495 23*	Oarbonyeb8 (~Oarbonyeb@182-54.dynamonet.fi23) has joined
+T 1660658515 23*	sfields (~sfields@136.34.146.12023) has joined
+T 1660658565 23*	varaindemian (uid73404@id-73404.ilkley.irccloud.com23) has joined
+T 1660658659 23*	BootLayer (~BootLayer@user/BootLayer23) has joined
+T 1660658670 23*	randyn1 (24d04a1b@m390.ata.ams-1.nl.appbox.co23) has joined
+T 1660658721 24*	kts has quit (Ping timeout: 256 seconds)
+T 1660658860 23*	vimart (~vimuster@sgyl-44-b2-v4wan-165522-cust387.vm6.cable.virginm.net23) has joined
+T 1660658971 23*	tg (~tg@rockylinux/infra/tg23) has joined
+T 1660659124 23*	zev (~zev@user/zev23) has joined
+T 1660659129 24*	cornduck has quit (Remote host closed the connection)
+T 1660659155 24*	pntaylor has quit (Ping timeout: 252 seconds)
+T 1660659208 24*	Atque has quit (Ping timeout: 268 seconds)

@@ -1,0 +1,161 @@
+T 1660191708 19*	Now talking on 22#linux
+T 1660191708 22*	Topic for 22#linux is: Welcome to #linux! Help/support for any Linux distribution. Discussion about the various aspects of Linux and Free/Open Source software is also encouraged. Rules at https://linux.chat/linux-on-libera/channel-rules/ -- Pastebin: "<command> | nc termbin.com 9999" (Do not use pastebin.com) -- No SMS (u, thx, etc.) -- Need an op? !ops <reason> or Join #linux-ops
+T 1660191708 22*	Topic for 22#linux set by 26lacroix (24Mon Jan  3 05:24:32 2022)
+T 1660191723 23*	medard (~mithrin@stip-static-62.213-81-207.telecom.sk23) has joined
+T 1660191728 18<Robdgreat18>	it turns out wildcard expansion is an example of expansion
+T 1660191729 18<bullgard418>	Robdgreat, I disagree with your answer. What you write is bash's "parameter expansion" and not the almost 238 times "expansion" use of bash.
+T 1660191730 24*	mithrin has quit (Ping timeout: 244 seconds)
+T 1660191731 18<Colere18>	bullgard4, as a near-native speaker of the English language, I promise you, this is what the term "expansion" generally means.
+T 1660191760 18<Colere18>	In non-technical English, the term "expansion" means "making something bigger".
+T 1660191780 18<Robdgreat18>	bullgard4: if you knew the answer, you neednt have asked the question
+T 1660191812 24*	stolen has quit (Ping timeout: 252 seconds)
+T 1660191813 18<Andrew18>	Expansion is a bit mre of 'touch spammy{1..9}{a..z}' use cases
+T 1660191822 18<Colere18>	He didn't say he *knew*, he said he *disagreed*. It's more than possible to express disagreement or doubt without having certain knowledge one way or another.
+T 1660191831 18<bullgard418>	Colere, I do not ask about "non-technical English". Bash is highly technical.
+T 1660191839 24*	pepeamid has quit (Quit: Byetelas)
+T 1660191848 23*	biberu\ (~biberu@user/biberu23) has joined
+T 1660191853 18<Robdgreat18>	e shrugs.
+T 1660191858 18<Colere18>	Bash is a cobbled-together Rube Goldberg pile of garbage.
+T 1660191859 18*	Robdgreat shrugs
+T 1660191864 23*	Feriun (~Feriun@user/Feriun23) has joined
+T 1660191903 18<Feriun18>	Hey there, I have an AppImage application which I can not config! config file is not loaded from .config
+T 1660191913 18<Feriun18>	Do you know how can I config the app?
+T 1660191927 18<Feriun18>	It's Sioyek, a PDF reader
+T 1660191944 24*	fegie has quit (Ping timeout: 255 seconds)
+T 1660191977 23*	stolen (~stolen@user/stolen23) has joined
+T 1660191994 23*	xcodz-dot (~xcodz-dot@223.233.67.5323) has joined
+T 1660192040 24*	xcodz-dot has quit (Quit: Connection closed)
+T 1660192043 24*	rtypo has quit (Ping timeout: 268 seconds)
+T 1660609959 19*	Now talking on 22#linux
+T 1660609959 22*	Topic for 22#linux is: Welcome to #linux! Help/support for any Linux distribution. Discussion about the various aspects of Linux and Free/Open Source software is also encouraged. Rules at https://linux.chat/linux-on-libera/channel-rules/ -- Pastebin: "<command> | nc termbin.com 9999" (Do not use pastebin.com) -- No SMS (u, thx, etc.) -- Need an op? !ops <reason> or Join #linux-ops
+T 1660609959 22*	Topic for 22#linux set by 26lacroix (24Mon Jan  3 05:24:32 2022)
+T 1660609997 23*	cthaeh^ (~cthaeh@50.231.67.4323) has joined
+T 1660609998 23*	sfm (~sfmason@47-201-239-206.plmt.fl.frontiernet.net23) has joined
+T 1660610055 24*	Barones has quit (Remote host closed the connection)
+T 1660610073 23*	Barones (~Barones@user/Barones23) has joined
+T 1660610086 24*	ExeciN has quit (Remote host closed the connection)
+T 1660610102 23*	akaWolf (~akaWolf@akawolf.org23) has joined
+T 1660610121 24*	Millicent has quit (Quit: ZNC 1.8.2 - https://znc.in)
+T 1660610121 24*	chiselfuse has quit (Remote host closed the connection)
+T 1660610129 24*	ent681 has quit (Quit: Leaving.)
+T 1660610147 24*	Netwolf has quit (Ping timeout: 248 seconds)
+T 1660610220 18<Eviruvoc18>	"apt full-upgrade" is very similar to "dist-upgrade".  If you've performed "apt upgrade" and noticed that there's some packages that have not been upgraded, that's the safety net of "update".  While "full-update" and "dist-upgrade" will take everything to the latest version.
+T 1660610222 23*	Haven1 (~Haven@2607:fea8:6562:6c00:74d8:b77b:dee9:dd6623) has joined
+T 1660610230 23*	chiselfuse (~chiselfus@user/chiselfuse23) has joined
+T 1660610275 18<blackop18>	usually for debian it doesnt make any difference
+T 1660610290 24*	Milos has quit (Quit: ZNC 1.8.2 - https://znc.in)
+T 1660610292 18<blackop18>	at least i didnt notice
+T 1660610311 23*	Milos (~Milos@user/milos23) has joined
+T 1660610328 23*	tetheredgoat (~hidden_go@2600:1700:f570:e4b0::2623) has joined
+T 1660610354 18<Eviruvoc18>	Using upgrade keeps to the rule: under no circumstances are currently installed packages removed, or packages not already installed retrieved and installed. If that's important to you, use apt-get upgrade. If you want things to "just work", you probably want apt-get dist-upgrade to ensure dependencies are resolved.
+T 1660610409 18<blackop18>	well debian is stable so it doesnt bring latest kernel or packages anyway
+T 1660610426 18<blackop18>	i rely on distro regarding that
+T 1660610462 23*	vysn (~vysn@user/vysn23) has joined
+T 1660610464 23*	Millicent (~millicent@user/Millicent23) has joined
+T 1660610473 18<Eviruvoc18>	True.  And I've noticed that if I just perform an "upgrade", it often leaves the kernel version intact.  Then I either manually upgrade the package or do a "dist-upgrade".
+T 1660610473 24*	cornfeedhobo (~cornfeedh@user/cornfeedhobo24) has left (when i leave, come together like butt cheeks)
+T 1660610502 23*	galex-713 (~galex-713@37.166.155.2523) has joined
+T 1660610503 18<blackop18>	i see
+T 1660610508 18<Guest8718>	How is All 261GB but AMD64 is 609GB?
+T 1660610576 24*	Guest3976 has quit (Ping timeout: 255 seconds)
+T 1660610577 18<Eviruvoc18>	lol
+T 1660610585 23*	Polo- (~Joseph@172.58.206.17023) has joined
+T 1660610620 18<Shaun18>	all & arch-specific don't contain remotely the same thing.  all is things like docs, themes, images that aren't arch-specific
+T 1660610656 23*	Netwolf (~Netwolf@my6.eu23) has joined
+T 1660610679 24*	varioust has quit (Ping timeout: 256 seconds)
+T 1660610696 23*	varioust (~varioust@cpe-108-167-11-88.neb.res.rr.com23) has joined
+T 1660610703 18<Shaun18>	think of 'all' as de-duplicating things that'd be the same no matter which arch you install them on.  it's not an alternative to amd64, it's an addendum
+T 1660610738 24*	ackpacket has quit (Ping timeout: 255 seconds)
+T 1660610771 24*	Ballerburg9005 has quit (Ping timeout: 268 seconds)
+T 1660610820 23*	Georgia292 (~Georgia29@96.44.142.75.adsl.inet-telecom.org23) has joined
+T 1660616744 19*	Now talking on 22#linux
+T 1660616744 22*	Topic for 22#linux is: Welcome to #linux! Help/support for any Linux distribution. Discussion about the various aspects of Linux and Free/Open Source software is also encouraged. Rules at https://linux.chat/linux-on-libera/channel-rules/ -- Pastebin: "<command> | nc termbin.com 9999" (Do not use pastebin.com) -- No SMS (u, thx, etc.) -- Need an op? !ops <reason> or Join #linux-ops
+T 1660616744 22*	Topic for 22#linux set by 26lacroix (24Mon Jan  3 05:24:32 2022)
+T 1660616757 23*	TMan459 (~TMan459@068-113-237-067.res.spectrum.com23) has joined
+T 1660616762 23*	Laborratte6 (~Laborratt@port-92-196-36-46.dynamic.as20676.net23) has joined
+T 1660616805 24*	Laborratte5 has quit (Ping timeout: 252 seconds)
+T 1660616870 24*	markgrady has quit (Remote host closed the connection)
+T 1660616929 18<loganlee18>	linked list is so easy to encode using json
+T 1660616952 23*	b1101 (~b1101@108.21.149.8323) has joined
+T 1660616970 18<ayecee18>	speaking of randomness
+T 1660616974 24*	masta`` has quit (Quit: Going offline, see ya! (www.adiirc.com))
+T 1660616982 18<loganlee18>	{self:0, next: 1}{self:1, next 2}{self:2, next 3}...
+T 1660617085 24*	wlemuel has quit (Remote host closed the connection)
+T 1660617206 18<tusko18>	piper
+T 1660617207 24*	emptyvoid has quit (Quit: gone)
+T 1660617213 18<tusko18>	paper*
+T 1660617225 18<kfrench18>	rock
+T 1660658032 19*	Now talking on 22#linux
+T 1660658032 22*	Topic for 22#linux is: Welcome to #linux! Help/support for any Linux distribution. Discussion about the various aspects of Linux and Free/Open Source software is also encouraged. Rules at https://linux.chat/linux-on-libera/channel-rules/ -- Pastebin: "<command> | nc termbin.com 9999" (Do not use pastebin.com) -- No SMS (u, thx, etc.) -- Need an op? !ops <reason> or Join #linux-ops
+T 1660658032 22*	Topic for 22#linux set by 26lacroix (24Mon Jan  3 05:24:32 2022)
+T 1660658092 23*	spetrosi (~spetrosi@ip-86-49-234-51.bb.vodafone.cz23) has joined
+T 1660658167 24*	gurkenglas has quit (Ping timeout: 268 seconds)
+T 1660658280 18<Guest618>	can I get to the error logs over the recovery menu?
+T 1660658289 18<Dagmar18>	Impressive they managed to break the system doing that in a perfectly normal fashion where no one interrupted the process at all
+T 1660658310 23*	kts (~kts@103.73.237.19423) has joined
+T 1660658333 23*	arinov_ (~arinov@31.143.75.5923) has joined
+T 1660658339 24*	crandon has quit (Ping timeout: 248 seconds)
+T 1660658340 18<Elw318>	The OFFICIAL ubuntu repo?
+T 1660658377 18<Dagmar18>	Somehow I don't recall the Steam client installation ever asking me to reboot
+T 1660658395 24*	Core7483 has quit (Read error: Connection reset by peer)
+T 1660658398 23*	Kyuzo68 (~Kyuzo@host-79-17-23-33.retail.telecomitalia.it23) has joined
+T 1660658408 18<Elw318>	Why am i even asking. I am on that OS
+T 1660658409 23*	Core3300 (~Core3300@199.249.111.18623) has joined
+T 1660658415 18<Elw318>	I have no steam in the repo
+T 1660658451 18<Dagmar18>	Can't imagine why it would even say that unless perhaps the user was attempting to install the Windows client for Steam under WINE
+T 1660658456 18<tripplehelix18>	steam doesn't ask to reboot, but a kernel module might?
+T 1660658473 24*	AquaL1te has quit (Quit: leaving)
+T 1660658480 18<Dagmar18>	tripplehelix: This isn't Windows.  We don't reboot for simple package installation.
+T 1660658482 18<Elw318>	Oh no i am on 18
+T 1660658499 24*	arinov has quit (Ping timeout: 248 seconds)
+T 1660658502 18<Dagmar18>	Even if the kernel gets replaced, it generally says _nothing_ about rebooting.  You're just expected to know it'll have to happen.
+T 1660658508 24*	mrkubax10 has quit (Quit: Quit (KVirc))
+T 1660658535 18<Elw318>	Yea nothing about this story makes any sensne
+T 1660658549 23*	sfields (~sfields@136.34.146.12023) has joined
+T 1660658556 23*	mrkubax10 (~mrkubax10@83.29.4.96.ipv4.supernova.orange.pl23) has joined
+T 1660658564 18<Dagmar18>	That it's that webchat user sort of makes everything come into focus
+T 1660658567 23*	varaindemian (uid73404@id-73404.ilkley.irccloud.com23) has joined
+T 1660658584 18<tripplehelix18>	probably Linux trying to get help
+T 1660658588 18<tripplehelix18>	*linus
+T 1660658608 18<Eviruvoc18>	I remember hearing about Linus Tech Tips having this same issue (Steam causing OS crashes).  https://youtu.be/0506yDSgU7M?t=602
+T 1660658618 24*	qlixed has quit (Quit: That's all folks!!)
+T 1660658630 18<tripplehelix18>	I've had the same issue on older OS's but never recently at least on debian
+T 1660658639 23*	qlixed (~qlixed@181.44.129.1823) has joined
+T 1660658643 18<Elw318>	BUt is steam in their repo even?
+T 1660658659 23*	BootLayer (~BootLayer@user/BootLayer23) has joined
+T 1660658660 23*	ari0x (~ari0x@user/ari0x23) has joined
+T 1660658670 23*	randyn1 (24d04a1b@m390.ata.ams-1.nl.appbox.co23) has joined
+T 1660658681 23*	Woodzy_ (~quassel@198.204.246.22823) has joined
+T 1660658685 24*	Woodzy has quit (Ping timeout: 268 seconds)
+T 1660658697 23*	OptimisticOasis (~Optimisti@gateway/tor-sasl/optimisticoasis23) has joined
+T 1660658712 23*	seydar (~seydar@154-27-113-252.starry-inc.net23) has joined
+T 1660658721 24*	kts has quit (Ping timeout: 256 seconds)
+T 1660658752 18<seydar18>	if process A spawns process B and is feeding data to its STDIN, is it possible for a nefarious process to *also* writing to process B's STDIN?
+T 1660658780 18<Dagmar18>	seydar: Not unless your system's security is compromised
+T 1660658781 18<Elw318>	sure
+T 1660658823 18<Dagmar18>	Elw3: Apparently it's in the multiverse repository
+T 1660658841 24*	OptimisticOasis has quit (Remote host closed the connection)
+T 1660658853 23*	vimart (~vimuster@sgyl-44-b2-v4wan-165522-cust387.vm6.cable.virginm.net23) has joined
+T 1660658861 23*	OptimisticOasis (~Optimisti@gateway/tor-sasl/optimisticoasis23) has joined
+T 1660658866 18<Dagmar18>	...but it doesn't request the user reboot, so... probably something especially dim was being done.
+T 1660658867 24*	acerbic has quit (Read error: Connection reset by peer)
+T 1660658883 24*	StopNGo has quit (Ping timeout: 248 seconds)
+T 1660658925 23*	slashasdf (~slashasdf@030-245-128-083.dynamic.caiway.nl23) has joined
+T 1660658961 24*	ari0x has quit (Quit: Client closed)
+T 1660658964 18<Elw318>	It appears to have altered a sensitve system part. Hard to imagen they let that into a repo. Let alon, what doesn it even alter?
+T 1660658966 24*	Core3300 has quit (Quit: CoreIRC for Android - www.coreirc.com)
+T 1660658995 18<Dagmar18>	More likely the user was doing something else dumb that broke things and this is when it just happened to manifest
+T 1660659000 23*	lys (~lys@2804:1b0:f384:39c:2066:d49b:5fee:956f23) has joined
+T 1660659012 18<Dagmar18>	...or they were actually trying to install Steam under WINE.
+T 1660659031 18<Elw318>	It would not have caused damage
+T 1660659033 18<Dagmar18>	...or maybe they saw it telling them to reboot and just pushed the button right then and there while things were still being updated.
+T 1660659037 18<Dagmar18>	Either way, we're being lied to.
+T 1660659054 24*	lys has quit (Client Quit)
+T 1660659129 24*	cornduck has quit (Remote host closed the connection)
+T 1660659163 23*	waldo (~waldo@user/waldo23) has joined
+T 1660659168 18<Elw318>	"at 85% it said I should reboot system" you dont get a reboot prompt somewhere in the middle. Probably it came from a different process. Maybe he rebooted during a normal install.
+T 1660659178 24*	28cirilla is now known as 18lys
+T 1660659198 18<Elw318>	Probably the automatic graphic card driver getter thing.
+T 1660659205 24*	gunner has quit (Quit: This computer has gone to sleep)
+T 1660659207 18<Elw318>	Aka, nvidia driver installer
+T 1660659208 24*	Atque has quit (Ping timeout: 268 seconds)

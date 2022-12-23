@@ -1,0 +1,19 @@
+00:00:00.487307 VirtualBox GUI VM Selector Window 6.1.36 r152435 linux.amd64 (Jul 21 2022 10:08:57) release log
+00:00:00.487310 Log opened 2022-08-16T16:26:14.467825000Z
+00:00:00.487311 Build Type: release
+00:00:00.487315 OS Product: Linux
+00:00:00.487317 OS Release: 5.19.1-arch2-1
+00:00:00.487319 OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 11 Aug 2022 16:06:13 +0000
+00:00:00.487345 DMI Product Name: Z370M AORUS Gaming
+00:00:00.487358 DMI Product Version: Default string
+00:00:00.487364 Firmware type: UEFI
+00:00:00.488177 Secure Boot: Disabled
+00:00:00.488234 Host RAM: 32055MB (31.3GB) total, 28580MB (27.9GB) available
+00:00:00.488238 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.488239 Process ID: 9518
+00:00:00.488240 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.488273 Qt version: 5.15.5
+00:00:00.517929 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.921043 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1090x470 x 977x1014
+00:00:00.930426 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2083x470 x 901x519
+00:00:00.967849 GUI: UIMediumEnumerator: Medium-enumeration finished!

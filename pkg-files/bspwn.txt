@@ -1,2 +1,6 @@
-bspwm
-sxhkd
+bspwm                 
+sxhkd                 
+alacritty
+git
+--END OF MINIMAL INSTALL--
+

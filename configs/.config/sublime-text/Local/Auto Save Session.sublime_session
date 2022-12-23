@@ -1,0 +1,1115 @@
+{
+	"folder_history":
+	[
+		"/home/max/.config",
+		"/home/max/.config/eww"
+	],
+	"last_version": 4126,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"next_update_check": 1660695287,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1014.0,
+		"new_window_maximized": false,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/max/.config/eww/System-Menu/scripts/dnd",
+				"/home/max/.config/eww/System-Menu/scripts/details",
+				"/home/max/.config/eww/System-Menu/scripts/network",
+				"/home/max/.config/polybar/gylphs.ini"
+			],
+			"find":
+			{
+				"height": 43.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 195.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1894.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/max/Downloads/Top-5-Bootloader-Themes/install.sh",
+					"settings":
+					{
+						"buffer_size": 5611,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/max/Downloads/dotfiles/grub/default/grub",
+					"settings":
+					{
+						"buffer_size": 1368,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/max/.config/polybar/config.ini",
+					"settings":
+					{
+						"buffer_size": 9451,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							9,
+							1,
+							"paste",
+							null,
+							"AQAAABEMAAAAAAAA0gwAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAARDAAAAAAAABEMAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAABAMAAAAAAAAEQwAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAQDAAAAAAAABAMAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAANMMAAAAAAAA1AwAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADTDAAAAAAAANMMAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": " power"
+							},
+							"BgAAALsGAAAAAAAAvAYAAAAAAAAAAAAAvAYAAAAAAAC9BgAAAAAAAAAAAAC9BgAAAAAAAL4GAAAAAAAAAAAAAL4GAAAAAAAAvwYAAAAAAAAAAAAAvwYAAAAAAADABgAAAAAAAAAAAADABgAAAAAAAMEGAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC7BgAAAAAAALsGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": "menu"
+							},
+							"BAAAAMEGAAAAAAAAwgYAAAAAAAAAAAAAwgYAAAAAAADDBgAAAAAAAAAAAADDBgAAAAAAAMQGAAAAAAAAAAAAAMQGAAAAAAAAxQYAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADBBgAAAAAAAMEGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							22,
+							1,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"AQAAALwGAAAAAAAAvAYAAAAAAAAJAAAAcG93ZXJtZW51",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADFBgAAAAAAAMUGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							23,
+							1,
+							"left_delete",
+							null,
+							"AQAAALsGAAAAAAAAuwYAAAAAAAABAAAAIA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC8BgAAAAAAALwGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							26,
+							1,
+							"insert",
+							{
+								"characters": " powrm"
+							},
+							"BgAAAN8GAAAAAAAA4AYAAAAAAAAAAAAA4AYAAAAAAADhBgAAAAAAAAAAAADhBgAAAAAAAOIGAAAAAAAAAAAAAOIGAAAAAAAA4wYAAAAAAAAAAAAA4wYAAAAAAADkBgAAAAAAAAAAAADkBgAAAAAAAOUGAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADfBgAAAAAAAN8GAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							27,
+							2,
+							"left_delete",
+							null,
+							"AgAAAOQGAAAAAAAA5AYAAAAAAAABAAAAbeMGAAAAAAAA4wYAAAAAAAABAAAAcg",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADlBgAAAAAAAOUGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": "ermenu"
+							},
+							"BgAAAOMGAAAAAAAA5AYAAAAAAAAAAAAA5AYAAAAAAADlBgAAAAAAAAAAAADlBgAAAAAAAOYGAAAAAAAAAAAAAOYGAAAAAAAA5wYAAAAAAAAAAAAA5wYAAAAAAADoBgAAAAAAAAAAAADoBgAAAAAAAOkGAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADjBgAAAAAAAOMGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": "red"
+							},
+							"BAAAAHEMAAAAAAAAcgwAAAAAAAAAAAAAcgwAAAAAAAByDAAAAAAAAAUAAABhbGVydHIMAAAAAAAAcwwAAAAAAAAAAAAAcwwAAAAAAAB0DAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABxDAAAAAAAAHYMAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							56,
+							1,
+							"left_delete",
+							null,
+							"AQAAAPcaAAAAAAAA9xoAAAAAAABMAQAAW21vZHVsZS9kYXRlXQp0eXBlPWludGVybmFsL2RhdGUKaW50ZXJ2YWw9MQpmb3JtYXQtbWFyZ2luPTAKdGltZT0iJUk6JU0gJXAiCnRpbWUtYWx0PSVBICVCICVkLCAlRyAKCmZvcm1hdC1wcmVmaXg9Iu+AlyAgIgoKZm9ybWF0LWZvbnQ9NAoKZm9ybWF0LXByZWZpeC1mb3JlZ3JvdW5kPSR7Y29sb3IuYmx1ZX0KZm9ybWF0LXByZWZpeC1iYWNrZ3JvdW5kPSR7Y29sb3IuYmFja2dyb3VuZH0KCmxhYmVsPSV0aW1lJQpsYWJlbC1mb250PTEKbGFiZWwtZm9yZWdyb3VuZD0ke2NvbG9yLmJsdWV9CmxhYmVsLWJhY2tncm91bmQ9JHtjb2xvci5iYWNrZ3JvdW5kfQpsYWJlbC1wYWRkaW5nPTA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABBHAAAAAAAAPcaAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							57,
+							1,
+							"paste",
+							null,
+							"AQAAAPcaAAAAAAAAvxsAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD3GgAAAAAAAPcaAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							71,
+							8,
+							"left_delete",
+							null,
+							"CAAAANkGAAAAAAAA2QYAAAAAAAABAAAAaNgGAAAAAAAA2AYAAAAAAAABAAAAdNcGAAAAAAAA1wYAAAAAAAABAAAAZdYGAAAAAAAA1gYAAAAAAAABAAAAINUGAAAAAAAA1QYAAAAAAAABAAAAbtQGAAAAAAAA1AYAAAAAAAABAAAAYdMGAAAAAAAA0wYAAAAAAAABAAAAbNIGAAAAAAAA0gYAAAAAAAABAAAAdw",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADaBgAAAAAAANoGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							72,
+							1,
+							"insert",
+							{
+								"characters": "network"
+							},
+							"BwAAANIGAAAAAAAA0wYAAAAAAAAAAAAA0wYAAAAAAADUBgAAAAAAAAAAAADUBgAAAAAAANUGAAAAAAAAAAAAANUGAAAAAAAA1gYAAAAAAAAAAAAA1gYAAAAAAADXBgAAAAAAAAAAAADXBgAAAAAAANgGAAAAAAAAAAAAANgGAAAAAAAA2QYAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADSBgAAAAAAANIGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							81,
+							1,
+							"paste",
+							null,
+							"AgAAAJEaAAAAAAAAYiIAAAAAAAAAAAAAYiIAAAAAAABiIgAAAAAAAGMAAABbbW9kdWxlL3dsYW5dCmluaGVyaXQgPSBuZXR3b3JrLWJhc2UKaW50ZXJmYWNlLXR5cGUgPSB3aXJlbGVzcwpsYWJlbC1jb25uZWN0ZWQgPSAlZXNzaWQlICVsb2NhbF9pcCU",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD0GgAAAAAAAJEaAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							99,
+							2,
+							"left_delete",
+							null,
+							"AgAAAMsZAAAAAAAAyxkAAAAAAADEAAAAW25ldHdvcmstYmFzZV0KdHlwZSA9IGludGVybmFsL25ldHdvcmsKaW50ZXJ2YWwgPSA1CmZvcm1hdC1jb25uZWN0ZWQgPSA8bGFiZWwtY29ubmVjdGVkPgpmb3JtYXQtZGlzY29ubmVjdGVkID0gPGxhYmVsLWRpc2Nvbm5lY3RlZD4KbGFiZWwtZGlzY29ubmVjdGVkID0gJXtGI0YwQzY3NH0laWZuYW1lJSV7RiM3MDc4ODB9IGRpc2Nvbm5lY3RlZMoZAAAAAAAAyhkAAAAAAAABAAAACg",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACPGgAAAAAAAMsZAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							116,
+							1,
+							"cut",
+							null,
+							"AQAAANIGAAAAAAAA0gYAAAAAAAAHAAAAbmV0d29yaw",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADSBgAAAAAAANkGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							117,
+							1,
+							"left_delete",
+							null,
+							"AQAAANEGAAAAAAAA0QYAAAAAAAABAAAAIA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADSBgAAAAAAANIGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							121,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAALsGAAAAAAAAvAYAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC7BgAAAAAAALsGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							122,
+							1,
+							"paste",
+							null,
+							"AQAAALwGAAAAAAAAwwYAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC8BgAAAAAAALwGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							136,
+							1,
+							"paste",
+							null,
+							"AQAAAOoGAAAAAAAAFQcAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADqBgAAAAAAAOoGAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							137,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAABUHAAAAAAAAFgcAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAVBwAAAAAAABUHAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAHoWAAAAAAAAexYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAehYAAAAAAAB6FgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"paste",
+							null,
+							"AQAAAHsWAAAAAAAAVhcAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAexYAAAAAAAB7FgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": " micros"
+							},
+							"BwAAAMMGAAAAAAAAxAYAAAAAAAAAAAAAxAYAAAAAAADFBgAAAAAAAAAAAADFBgAAAAAAAMYGAAAAAAAAAAAAAMYGAAAAAAAAxwYAAAAAAAAAAAAAxwYAAAAAAADIBgAAAAAAAAAAAADIBgAAAAAAAMkGAAAAAAAAAAAAAMkGAAAAAAAAygYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwwYAAAAAAADDBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"left_delete",
+							null,
+							"AQAAAMkGAAAAAAAAyQYAAAAAAAABAAAAcw",
+							"AQAAAAAAAAABAAAAygYAAAAAAADKBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": "fone"
+							},
+							"BAAAAMkGAAAAAAAAygYAAAAAAAAAAAAAygYAAAAAAADLBgAAAAAAAAAAAADLBgAAAAAAAMwGAAAAAAAAAAAAAMwGAAAAAAAAzQYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAyQYAAAAAAADJBgAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/max/.config/polybar/gylphs.ini"
+			],
+			"find":
+			{
+				"height": 43.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"pulse",
+					"networ",
+					"network"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/max/Downloads/Top-5-Bootloader-Themes/install.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5611,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1252,
+										1252
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1200.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/max/Downloads/dotfiles/grub/default/grub",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1368,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/max/.config/polybar/config.ini",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9451,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1741,
+										1741
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1069.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,10,52,1064,1904,3000,1920,1",
+			"project": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/max/.config/polybar/config.ini",
+					"redo_stack":
+					[
+						[
+							61,
+							1,
+							"insert",
+							{
+								"characters": ";"
+							},
+							"AQAAAC4VAAAAAAAALhUAAAAAAAABAAAAOw",
+							"AQAAAAAAAAABAAAALxUAAAAAAAAvFQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"left_delete",
+							null,
+							"AQAAADwVAAAAAAAAPRUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPBUAAAAAAAA8FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							57,
+							1,
+							"left_delete",
+							null,
+							"AQAAADsVAAAAAAAAPBUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOxUAAAAAAAA7FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							55,
+							1,
+							"insert",
+							{
+								"characters": "refix"
+							},
+							"BQAAADoVAAAAAAAAOhUAAAAAAAABAAAAeDkVAAAAAAAAORUAAAAAAAABAAAAaTgVAAAAAAAAOBUAAAAAAAABAAAAZjcVAAAAAAAANxUAAAAAAAABAAAAZTYVAAAAAAAANhUAAAAAAAABAAAAcg",
+							"AQAAAAAAAAABAAAAOxUAAAAAAAA7FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							54,
+							1,
+							"insert",
+							{
+								"characters": "\nformat-p"
+							},
+							"CQAAADUVAAAAAAAANRUAAAAAAAABAAAAcDQVAAAAAAAANBUAAAAAAAABAAAALTMVAAAAAAAAMxUAAAAAAAABAAAAdDIVAAAAAAAAMhUAAAAAAAABAAAAYTEVAAAAAAAAMRUAAAAAAAABAAAAbTAVAAAAAAAAMBUAAAAAAAABAAAAci8VAAAAAAAALxUAAAAAAAABAAAAby4VAAAAAAAALhUAAAAAAAABAAAAZi0VAAAAAAAALRUAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAANhUAAAAAAAA2FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							53,
+							1,
+							"left_delete",
+							null,
+							"BQAAAC0VAAAAAAAALhUAAAAAAAAAAAAALhUAAAAAAAAvFQAAAAAAAAAAAAAvFQAAAAAAADAVAAAAAAAAAAAAADAVAAAAAAAAMRUAAAAAAAAAAAAAMRUAAAAAAAAyFQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALRUAAAAAAAAtFQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							48,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAEgVAAAAAAAASBUAAAAAAAABAAAACg",
+							"AQAAAAAAAAABAAAASRUAAAAAAABJFQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"insert",
+							{
+								"characters": "l>"
+							},
+							"AgAAAEcVAAAAAAAARxUAAAAAAAABAAAAPkYVAAAAAAAARhUAAAAAAAABAAAAbA",
+							"AQAAAAAAAAABAAAASBUAAAAAAABIFQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							46,
+							1,
+							"insert",
+							{
+								"characters": "=<labe"
+							},
+							"BgAAAEUVAAAAAAAARRUAAAAAAAABAAAAZUQVAAAAAAAARBUAAAAAAAABAAAAYkMVAAAAAAAAQxUAAAAAAAABAAAAYUIVAAAAAAAAQhUAAAAAAAABAAAAbEEVAAAAAAAAQRUAAAAAAAABAAAAPEAVAAAAAAAAQBUAAAAAAAABAAAAPQ",
+							"AQAAAAAAAAABAAAARhUAAAAAAABGFQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAD8VAAAAAAAAPxUAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAQBUAAAAAAABAFQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							44,
+							1,
+							"insert",
+							{
+								"characters": "format"
+							},
+							"BgAAAD4VAAAAAAAAPhUAAAAAAAABAAAAdD0VAAAAAAAAPRUAAAAAAAABAAAAYTwVAAAAAAAAPBUAAAAAAAABAAAAbTsVAAAAAAAAOxUAAAAAAAABAAAAcjoVAAAAAAAAOhUAAAAAAAABAAAAbzkVAAAAAAAAORUAAAAAAAABAAAAZg",
+							"AQAAAAAAAAABAAAAPxUAAAAAAAA/FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							1,
+							"left_delete",
+							null,
+							"AQAAADcVAAAAAAAAOBUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANxUAAAAAAAA3FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"paste",
+							null,
+							"AQAAADcVAAAAAAAANxUAAAAAAAADAAAA74CT",
+							"AQAAAAAAAAABAAAAOBUAAAAAAAA4FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"paste",
+							null,
+							"AQAAADYVAAAAAAAANhUAAAAAAAADAAAA74CT",
+							"AQAAAAAAAAABAAAANxUAAAAAAAA3FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert_snippet",
+							{
+								"contents": "\"$0\""
+							},
+							"AQAAADUVAAAAAAAANRUAAAAAAAACAAAAIiI",
+							"AQAAAAAAAAABAAAANhUAAAAAAAA2FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAADQVAAAAAAAANBUAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAANRUAAAAAAAA1FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"insert",
+							{
+								"characters": " ="
+							},
+							"AgAAADMVAAAAAAAAMxUAAAAAAAABAAAAPTIVAAAAAAAAMhUAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAANBUAAAAAAAA0FQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": "label"
+							},
+							"BQAAADEVAAAAAAAAMRUAAAAAAAABAAAAbDAVAAAAAAAAMBUAAAAAAAABAAAAZS8VAAAAAAAALxUAAAAAAAABAAAAYi4VAAAAAAAALhUAAAAAAAABAAAAYS0VAAAAAAAALRUAAAAAAAABAAAAbA",
+							"AQAAAAAAAAABAAAAMhUAAAAAAAAyFQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"left_delete",
+							null,
+							"AQAAAC0VAAAAAAAALhUAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALRUAAAAAAAAtFQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"insert",
+							{
+								"characters": "L"
+							},
+							"AQAAAC0VAAAAAAAALRUAAAAAAAABAAAATA",
+							"AQAAAAAAAAABAAAALhUAAAAAAAAuFQAAAAAAAAAAAAAAAPC/"
+						]
+					],
+					"settings":
+					{
+						"buffer_size": 9451,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/max/.config",
+				"/home/max/.config/polybar"
+			],
+			"file_history":
+			[
+				"/home/max/.config/polybar/gylphs.ini"
+			],
+			"find":
+			{
+				"height": 43.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"cpu"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/max/.config"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/max/.config/polybar/config.ini",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9451,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5421,
+										5421
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 4061.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,1090,470,2984,1484,3000,1920,8",
+			"project": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 195.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

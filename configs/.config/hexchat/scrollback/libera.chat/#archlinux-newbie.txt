@@ -1,0 +1,25 @@
+T 1660589770 19*	Now talking on 22#archlinux-newbie
+T 1660589770 22*	Topic for 22#archlinux-newbie is: Welcome to the Arch Linux community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://archlinux-newbie.github.io/rules/ | The Arch community expects users to do the research before asking questions, please check the wiki and news before posting here.
+T 1660589770 22*	Topic for 22#archlinux-newbie set by 26gehidore!~username@user/man (24Tue Mar  1 21:08:14 2022)
+T 1660589817 20<DarrylTheFish>30	hey guys! I'm trying to make the plex media server read my external hd with movies, but I read something about external drivers that are only allowed to be read by root. how do I change this and get the plex media server to read the movies from the external hard drive?
+T 1660589862 18<gehidore18>	setup fstab options or use udisks
+T 1660590153 19<gehidore>	DarrylTheFish ^
+T 1660590686 20<DarrylTheFish>30	 gehidore i got rw,relatime,user on my fstab
+T 1660590714 18<gehidore18>	user should allow it to be mounted assuming you're referencing it correctly
+T 1660590728 18<gehidore18>	you may need to alter permissions of the actual files / directories
+T 1660590764 20<DarrylTheFish>30	oh let me try
+T 1660590791 18<gehidore18>	so a user should be able to do mount /mountpoint and have it mount
+T 1660610273 19*	Now talking on 22#archlinux-newbie
+T 1660610273 22*	Topic for 22#archlinux-newbie is: Welcome to the Arch Linux community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://archlinux-newbie.github.io/rules/ | The Arch community expects users to do the research before asking questions, please check the wiki and news before posting here.
+T 1660610273 22*	Topic for 22#archlinux-newbie set by 26gehidore!~username@user/man (24Tue Mar  1 21:08:14 2022)
+T 1660616744 19*	Now talking on 22#archlinux-newbie
+T 1660616744 22*	Topic for 22#archlinux-newbie is: Welcome to the Arch Linux community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://archlinux-newbie.github.io/rules/ | The Arch community expects users to do the research before asking questions, please check the wiki and news before posting here.
+T 1660616744 22*	Topic for 22#archlinux-newbie set by 26gehidore!~username@user/man (24Tue Mar  1 21:08:14 2022)
+T 1660616762 23*	Laborratte6 (~Laborratt@port-92-196-36-46.dynamic.as20676.net23) has joined
+T 1660616805 24*	Laborratte5 has quit (Ping timeout: 252 seconds)
+T 1660658032 19*	Now talking on 22#archlinux-newbie
+T 1660658032 22*	Topic for 22#archlinux-newbie is: Welcome to the Arch Linux community. This is a space to learn and try new things, without fear of ridicule. | RULES: https://archlinux-newbie.github.io/rules/ | The Arch community expects users to do the research before asking questions, please check the wiki and news before posting here.
+T 1660658032 22*	Topic for 22#archlinux-newbie set by 26gehidore!~username@user/man (24Tue Mar  1 21:08:14 2022)
+T 1660658063 >18NickServ<	identify ****
+T 1660658063 -18NickServ-	You are now identified for DarrylTheFish.
+T 1660658063 -18NickServ-	Last login from: ~DarrylThe@2804:d41:b66c:fc00:783a:1c12:b377:6d5b on Aug 16 02:34:38 2022 +0000.

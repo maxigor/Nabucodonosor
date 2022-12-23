@@ -1,0 +1,30 @@
+T 1660609960 19*	Now talking on 22#hackers
+T 1660609960 22*	Topic for 22#hackers is: Welcome to the hacker hangout | No politics | Matrix users: Check out #matrix-hackers:matrix.org encrypted chat | Be patient with questions, it might take hours for people to respond. | Please keep conversations family friendly | Checkout ##malware (#Malware:matrix.org) for malware analysis help and discussion | Channel webste: https://freenode-hackers.github.io/hackers
+T 1660609960 22*	Topic for 22#hackers set by 26terabit[m]!~terabit@2001:470:69fc:105::f82 (24Tue Jun 15 23:50:30 2021)
+T 1660609960 22*	Channel 22#hackers url: 24https://hackers.netlify.app/
+T 1660609960 22*	26ChanServ gives voice to 18DarrylTheFish
+T 1660610121 24*	chiselfuse has quit (Remote host closed the connection)
+T 1660610223 23*	Haven1 (~Haven@2607:fea8:6562:6c00:74d8:b77b:dee9:dd6623) has joined
+T 1660610223 22*	26ChanServ gives voice to 18Haven1
+T 1660610235 23*	chiselfuse (~chiselfus@user/chiselfuse23) has joined
+T 1660610235 22*	26ChanServ gives voice to 18chiselfuse
+T 1660610328 23*	tetheredgoat (~hidden_go@2600:1700:f570:e4b0::2623) has joined
+T 1660610328 22*	26ChanServ gives voice to 18tetheredgoat
+T 1660616744 19*	Now talking on 22#hackers
+T 1660616744 22*	Topic for 22#hackers is: Welcome to the hacker hangout | No politics | Matrix users: Check out #matrix-hackers:matrix.org encrypted chat | Be patient with questions, it might take hours for people to respond. | Please keep conversations family friendly | Checkout ##malware (#Malware:matrix.org) for malware analysis help and discussion | Channel webste: https://freenode-hackers.github.io/hackers
+T 1660616744 22*	Topic for 22#hackers set by 26terabit[m]!~terabit@2001:470:69fc:105::f82 (24Tue Jun 15 23:50:30 2021)
+T 1660616744 22*	Channel 22#hackers url: 24https://hackers.netlify.app/
+T 1660616744 22*	26ChanServ gives voice to 18DarrylTheFish
+T 1660616762 23*	Laborratte6 (~Laborratt@port-92-196-36-46.dynamic.as20676.net23) has joined
+T 1660616762 22*	26ChanServ gives voice to 18Laborratte6
+T 1660616805 24*	Laborratte5 has quit (Ping timeout: 252 seconds)
+T 1660616932 24*	Guest22 has quit (Quit: Client closed)
+T 1660617134 23*	uniq (~uniq@2001:44b8:1124:e501:1c8:4cd7:4972:b7f623) has joined
+T 1660617134 22*	26ChanServ gives voice to 18uniq
+T 1660658032 19*	Now talking on 22#hackers
+T 1660658032 22*	Topic for 22#hackers is: Welcome to the hacker hangout | No politics | Matrix users: Check out #matrix-hackers:matrix.org encrypted chat | Be patient with questions, it might take hours for people to respond. | Please keep conversations family friendly | Checkout ##malware (#Malware:matrix.org) for malware analysis help and discussion | Channel webste: https://freenode-hackers.github.io/hackers
+T 1660658032 22*	Topic for 22#hackers set by 26terabit[m]!~terabit@2001:470:69fc:105::f82 (24Tue Jun 15 23:50:30 2021)
+T 1660658032 22*	Channel 22#hackers url: 24https://hackers.netlify.app/
+T 1660658032 22*	26ChanServ gives voice to 18DarrylTheFish
+T 1660658487 23*	redstarcomrade (uid99592@user/redstarcomrade23) has joined
+T 1660658487 22*	26ChanServ gives voice to 18redstarcomrade
