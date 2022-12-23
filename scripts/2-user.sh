@@ -52,16 +52,12 @@ fi
 
 export PATH=$PATH:~/.local/bin
 
-# Theming DE if user chose FULL installation
-if [[ $INSTALL_TYPE == "FULL" ]]; then
-  if [[ $DESKTOP_ENV == "bspwm" ]]; then
-    cp -r ~/nabucodonosor/configs/.config/* ~/.config/
-    cp ~/nabucodonosor/configs/.Xresources ~/
-    cp ~/nabucodonosor/configs/.xinitrc ~/
-    cp ~/nabucodonosor/configs/.zshrc ~/
-    mkdir ~/Downloads
-  fi
-fi
+mkdir ~/.config
+cp -r ~/nabucodonosor/configs/.config/* ~/.config/
+cp ~/nabucodonosor/configs/.Xresources ~/
+cp ~/nabucodonosor/configs/.xinitrc ~/
+cp ~/nabucodonosor/configs/.zshrc ~/
+mkdir ~/Downloads# Theming DE if user chose FULL installation
 
 echo -ne "
 -------------------------------------------------------------------------
