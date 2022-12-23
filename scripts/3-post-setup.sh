@@ -80,40 +80,6 @@ rm -rf ~/Downloads/xqp
 
 echo -ne "
 -------------------------------------------------------------------------
-               Enabling (and Theming) Login Display Manager
--------------------------------------------------------------------------
-"
-if [[ ${DESKTOP_ENV} == "kde" ]]; then
-  systemctl enable sddm.service
-  if [[ ${INSTALL_TYPE} == "FULL" ]]; then
-    echo [Theme] >>  /etc/sddm.conf
-    echo Current=Nordic >> /etc/sddm.conf
-  fi
-
-elif [[ "${DESKTOP_ENV}" == "gnome" ]]; then
-  systemctl enable gdm.service
-
-elif [[ "${DESKTOP_ENV}" == "lxde" ]]; then
-  systemctl enable lxdm.service
-
-elif [[ "${DESKTOP_ENV}" == "openbox" ]]; then
-  systemctl enable lightdm.service
-  if [[ "${INSTALL_TYPE}" == "FULL" ]]; then
-    # Set default lightdm-webkit2-greeter theme to Litarvan
-    sed -i 's/^webkit_theme\s*=\s*\(.*\)/webkit_theme = litarvan #\1/g' /etc/lightdm/lightdm-webkit2-greeter.conf
-    # Set default lightdm greeter to lightdm-webkit2-greeter
-    sed -i 's/#greeter-session=example.*/greeter-session=lightdm-webkit2-greeter/g' /etc/lightdm/lightdm.conf
-  fi
-
-else
-  if [[ ! "${DESKTOP_ENV}" == "server"  ]]; then
-  sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
-  systemctl enable lightdm.service
-  fi
-fi
-
-echo -ne "
--------------------------------------------------------------------------
                     Enabling Essential Services
 -------------------------------------------------------------------------
 "
@@ -126,7 +92,7 @@ systemctl enable NetworkManager.service
 
 echo "Enabling Ly Display Manager..."
 sudo systemctl enable ly.service
-sudo cp /home/max/nabucodonosor/configs/config.ini /etc/ly/
+sudo cp ~/nabucodonosor/configs/config.ini /etc/ly/
 
 echo "Enabling and Starting Plex Media Service..."
 sudo systemctl enable plexmediaserver
