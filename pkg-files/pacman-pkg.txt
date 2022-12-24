@@ -101,6 +101,7 @@ libev
 libxdg-basedir
 pcre
 pixman
+xdo
 xcb-util-image
 xcb-util-renderutil
 hicolor-icon-theme
