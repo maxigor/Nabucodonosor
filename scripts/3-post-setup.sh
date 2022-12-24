@@ -84,19 +84,8 @@ cd xqp
 make
 sudo make install
 
-# XDO -----------------------------------------------------------------
-cd ~/Downloads
-git clone https://github.com/baskerville/xdo
-cd xdo
-make
-sudo make install
-sudo usermod -aG adm $USER
+m -rf ~/Downloads/xqp
 
-cd ~
-rm -rf ~/Downloads/xdo
-rm -rf ~/Downloads/xqp
-
-mkdir ~/Downloads
 echo -ne "
 -------------------------------------------------------------------------
                     Enabling Essential Services
