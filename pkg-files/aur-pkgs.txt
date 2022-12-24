@@ -19,7 +19,6 @@ discord
 octopi
 librewolf-bin
 tor-browser
-rpi-imager
 spotifyd
 shell-color-scripts
 plex-media-server

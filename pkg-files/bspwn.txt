@@ -2,5 +2,13 @@ bspwm
 sxhkd                 
 alacritty
 git
+xorg
+xorg-server
+xorg-apps
+xorg-drivers
+xorg-xkill
+xorg-xinit
+base-devel
+linux-headers
 --END OF MINIMAL INSTALL--
 

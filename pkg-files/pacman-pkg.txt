@@ -1,11 +1,3 @@
-xorg
-xorg-server
-xorg-apps
-xorg-drivers
-xorg-xkill
-xorg-xinit
-base-devel
-linux-headers
 nautilus              
 bash-completion       
 bc                    
@@ -17,7 +9,6 @@ file-roller
 keepassxc             
 gtop                  
 gufw                  
-hardinfo              
 htop                  
 inxi                  
 jq                    
@@ -48,7 +39,6 @@ ntfs-3g
 parted                
 nemo                  
 veracrypt             
-variety               
 polybar               
 qbittorrent           
 font-manager          
@@ -113,8 +103,6 @@ libdbus
 asciidoc
 uthash
 galculator            
-hunspell              
-hunspell-en           
 libreoffice-fresh     
 xpdf                  
 ttf-font-awesome
