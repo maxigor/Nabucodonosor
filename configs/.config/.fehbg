@@ -1,5 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/max/.config/wallpaper/wall2.png' '/home/max/.config/wallpaper/wall.jpg' 
-
-
-
+feh --no-fehbg --bg-fill '/home/max/.config/wallpaper/wall.png' 
