@@ -44,7 +44,7 @@ THEME_DIR="/boot/grub/themes"
 THEME_NAME=CyberRe
 echo -e "Creating the theme directory..."
 mkdir -p "${THEME_DIR}/${THEME_NAME}"
-echo -e "Copying the theme..."
+echo -e "Copying the theme.. e."
 cd ${HOME}/nabucodonosor
 cp -a configs${THEME_DIR}/${THEME_NAME}/* ${THEME_DIR}/${THEME_NAME}
 echo -e "Backing up Grub config..."
@@ -79,16 +79,13 @@ cd xqp
 make
 sudo make install
 
-m -rf ~/Downloads/xqp
+rm -rf ~/Downloads/xqp
 
 echo -ne "
 -------------------------------------------------------------------------
                     Enabling Essential Services
 -------------------------------------------------------------------------
 "
-
-echo "Changed default shell to ZSH!"
-chsh -s $(which zsh)
 
 echo "Enabling NetworkManager"
 systemctl enable NetworkManager.service
@@ -137,13 +134,11 @@ PLYMOUTH_THEMES_DIR="$HOME/nabucodonosor/configs/usr/share/plymouth/themes"
 PLYMOUTH_THEME="hexagon_red" # can grab from config later if we allow selection
 mkdir -p /usr/share/plymouth/themes
 echo 'Installing Plymouth theme...'
+
 cp -rf ${PLYMOUTH_THEMES_DIR}/${PLYMOUTH_THEME} /usr/share/plymouth/themes
-if  [[ $FS == "luks"]]; then
-  sed -i 's/HOOKS=(base udev*/& plymouth/' /etc/mkinitcpio.conf # add plymouth after base udev
-  sed -i 's/HOOKS=(base udev \(.*block\) /&plymouth-/' /etc/mkinitcpio.conf # create plymouth-encrypt after block hook
-else
-  sed -i 's/HOOKS=(base udev*/& plymouth/' /etc/mkinitcpio.conf # add plymouth after base udev
-fi
+
+sed -i 's/HOOKS=(base udev*/& plymouth/' /etc/mkinitcpio.conf # add plymouth after base udev
+
 plymouth-set-default-theme -R hexagon_red # sets the theme and runs mkinitcpio
 echo 'Plymouth theme installed'
 
@@ -158,6 +153,7 @@ sed -i 's/^%wheel ALL=(ALL:ALL) NOPASSWD: ALL/# %wheel ALL=(ALL:ALL) NOPASSWD: A
 # Add sudo rights
 sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
+
 
 rm -r $HOME/nabucodonosor
 rm -r /home/$USERNAME/nabucodonosor
