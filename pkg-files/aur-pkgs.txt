@@ -2,7 +2,6 @@ ly
 i3lock-fancy        
 timeshift          
 7-zip-full
-xdo
 xdf-user-dirs
 python-xdg
 moreutils
