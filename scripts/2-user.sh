@@ -58,7 +58,7 @@ cp -r ~/nabucodonosor/configs/.config/* ~/.config/
 cp ~/nabucodonosor/configs/.Xresources ~/
 cp ~/nabucodonosor/configs/.xinitrc ~/
 cp ~/nabucodonosor/configs/.zshrc ~/
-mkdir ~/Downloads# Theming DE if user chose FULL installation
+mkdir ~/Downloads
 
 echo -ne "
 -------------------------------------------------------------------------
