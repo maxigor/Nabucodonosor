@@ -68,14 +68,9 @@ sudo fc-cache -fv
 
 echo -ne "
 -------------------------------------------------------------------------
-                        Installing XQP and XDO
+                        Installing XQP
 -------------------------------------------------------------------------
 "
-
-cp -r ~/nabucodonosor/configs/.config/* ~/.config/
-cp ~/nabucodonosor/configs/.Xresources ~/
-cp ~/nabucodonosor/configs/.xinitrc ~/
-cp ~/nabucodonosor/configs/.zshrc ~/
 
 #XQP -----------------------------------------------------------------
 cd ~/Downloads
