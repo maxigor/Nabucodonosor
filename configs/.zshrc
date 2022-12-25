@@ -15,6 +15,8 @@ alias speedtest="speedtest-cli"
 alias g="git"
 alias unzip="gunzip -k"
 alias h="history"
+alias top="bpytop"
+
 
 alias ww="xprop | grep WM_CLASS"
 # Disk Space Report
