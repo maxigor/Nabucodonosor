@@ -11,14 +11,10 @@ alias -- -="cd -"
 # Shortcuts
 
 alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
 alias speedtest="speedtest-cli"
 alias g="git"
-alias v="vim"
 alias unzip="gunzip -k"
 alias h="history"
-alias rm="rm -r"
-alias code="cd /run/media/max/Striker\ Eurka/Coding/"
 
 alias ww="xprop | grep WM_CLASS"
 # Disk Space Report
@@ -29,14 +25,9 @@ alias please=sudo
 alias pls=sudo
 alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
 
-# vim and emacs
+# vim 
 alias vim="nvim"
-alias em="/usr/bin/emacs -nw"
-alias emacs="emacsclient -c -a 'emacs'"
-alias doomsync="~/.emacs.d/bin/doom sync"
-alias doomdoctor="~/.emacs.d/bin/doom doctor"
-alias doomupgrade="~/.emacs.d/bin/doom upgrade"
-alias doompurge="~/.emacs.d/bin/doom purge"
+alias v="nvim"
 
 # pacman and yay
 alias pacsyu='sudo pacman -Syu'                  # update only standard pkgs
@@ -69,11 +60,6 @@ alias pscpu='ps auxf | sort -nr -k 3'
 # adding flags
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
-alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
-alias vifm='./.config/vifm/scripts/vifmrun'
-alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
-alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
-
 
 # gpg encryption
 # verify signature for isos
