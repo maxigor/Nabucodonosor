@@ -147,9 +147,11 @@ echo -ne "
                             Nvidia Modules
 -------------------------------------------------------------------------
 "
-
-sed -i 's/MODULE=(*/& nvidia nvidia_modset nvidia_uvm nvidia_drm/' /etc/mkinitcpio.conf # add nvidia modules 
-
+gpu_type=$(lspci)
+if grep -E "NVIDIA|GeForce" <<< ${gpu_type}; then
+  sed -i 's/MODULE=(*/& nvidia nvidia_modset nvidia_uvm nvidia_drm/' /etc/mkinitcpio.conf # add nvidia modules 
+  mkinitcpio -P
+fi
 echo -ne "
 -------------------------------------------------------------------------
                     Cleaning
