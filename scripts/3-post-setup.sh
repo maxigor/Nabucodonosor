@@ -53,8 +53,12 @@ echo -e "Setting the theme as the default..."
 grep "GRUB_THEME=" /etc/default/grub 2>&1 >/dev/null && sed -i '/GRUB_THEME=/d' /etc/default/grub
 echo "GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"" >> /etc/default/grub
 echo -e "Updating grub..."
+cp -r ${HOME}/nabucodonosor/configs/default/grub /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
 echo -e "All set!"
+
+
+
 
 echo -ne "
 -------------------------------------------------------------------------
@@ -140,6 +144,7 @@ cp -rf ${PLYMOUTH_THEMES_DIR}/${PLYMOUTH_THEME} /usr/share/plymouth/themes
 sed -i 's/HOOKS=(base udev*/& plymouth/' /etc/mkinitcpio.conf # add plymouth after base udev
 
 plymouth-set-default-theme -R hexagon_red # sets the theme and runs mkinitcpio
+cp -r {HOME}/nabucodonosor/configs/plymouthd.conf /etc/plymouth/plymouthd.conf
 echo 'Plymouth theme installed'
 
 echo -ne "
