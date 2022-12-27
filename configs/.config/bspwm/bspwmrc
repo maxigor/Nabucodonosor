@@ -28,9 +28,8 @@ bspc rule -a qbittorrent desktop="^2"
 bspc rule -a hexchat desktop="^5"
 
 ${HOME}/.config/.fehbg
-xrandr --output DP-0 --primary --set TearFree on
-xrandr --output HDMI-0 --rotate right
+xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate right --output DP-0 --primary --mode 1920x1080 --pos 1080x420 --rotate normal --output DP-1 --off
 xrdb ${HOME}/.Xresources
 $HOME/.config/polybar/launch.sh
 $HOME/.config/bspwm/autostart.sh
-picom --experimental-backends
+picom # --experimental-backends
