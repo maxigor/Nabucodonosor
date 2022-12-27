@@ -76,7 +76,6 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 
-#XQP -----------------------------------------------------------------
 cd ~/Downloads
 git clone https://github.com/baskerville/xqp.git
 cd xqp
@@ -144,7 +143,6 @@ cp -rf ${PLYMOUTH_THEMES_DIR}/${PLYMOUTH_THEME} /usr/share/plymouth/themes
 sed -i 's/HOOKS=(base udev*/& plymouth/' /etc/mkinitcpio.conf # add plymouth after base udev
 
 plymouth-set-default-theme -R hexagon_red # sets the theme and runs mkinitcpio
-cp -r {HOME}/nabucodonosor/configs/plymouthd.conf /etc/plymouth/plymouthd.conf
 echo 'Plymouth theme installed'
 
 echo -ne "
@@ -155,6 +153,7 @@ echo -ne "
 gpu_type=$(lspci)
 if grep -E "NVIDIA|GeForce" <<< ${gpu_type}; then
   sed -i 's/MODULE=(*/& nvidia nvidia_modset nvidia_uvm nvidia_drm/' /etc/mkinitcpio.conf # add nvidia modules 
+  cp {HOME}/nabucodonosor/configs/70-nvidia.rules /etc/udev/rules.d/
   mkinitcpio -P
 fi
 echo -ne "
@@ -172,6 +171,7 @@ sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
 
 rm -r $HOME/nabucodonosor
 rm -r /home/$USERNAME/nabucodonosor
+rm -r /home/$USERNAME/paru
 
 # Replace in the same state
 cd $pwd
