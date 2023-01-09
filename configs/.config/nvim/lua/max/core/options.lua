@@ -1,4 +1,4 @@
-opt = vim.opt  -- for conciseness
+opt = vim.opt -- for conciseness
 
 -- line numbers
 opt.relativenumber = true
@@ -24,6 +24,9 @@ opt.cursorline = true
 opt.termguicolors = true
 -- opt.background = "dark"
 opt.signcolumn = "yes"
+
+opt.hlsearch = false
+opt.incsearch = true
 
 -- backspace
 opt.backspace = "indent,eol,start"

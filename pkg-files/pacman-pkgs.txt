@@ -1,4 +1,6 @@
+
 alsa-utils 
+ansible-core
 apache                
 asciidoc
 aws-cli
@@ -86,9 +88,9 @@ rofi
 rsync                 
 simplescreenrecorder  
 speedtest-cli         
-starship
 starship              
 terminus-font         
+terraform
 thunderbird
 ttf-font-awesome
 ttf-roboto
@@ -112,5 +114,4 @@ zenity
 zip                   
 zsh                   
 zsh-completions       
-
 --END OF MINIMAL INSTALL--

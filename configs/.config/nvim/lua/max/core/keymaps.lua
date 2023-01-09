@@ -28,8 +28,19 @@ keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
 keymap.set("n", "<leader>nt", ":tabnew<CR>") -- open new tab
 keymap.set("n", "<leader>ct", ":tabclose<CR>") -- close current tab
-keymap.set("n", "<TAB>", ":tabn<CR>") --  go to next tab
-keymap.set("n", "<leader>pt", ":tabp<CR>") --  go to previous tab
+keymap.set("n", "<TAB>", ":bnext<CR>")
+keymap.set("n", "<leader>x", ":tabclose<CR>")
+
+-- greatest remap ever
+keymap.set("x", "<leader>p", '"_dP')
+
+-- next greatest remap ever : asbjornHaland
+keymap.set("n", "<leader>y", '"+y')
+keymap.set("v", "<leader>y", '"+y')
+keymap.set("n", "<leader>Y", '"+Y')
+
+keymap.set("n", "<leader>d", '"_d')
+keymap.set("v", "<leader>d", '"_d')
 
 ----------------------
 -- Plugin Keybinds

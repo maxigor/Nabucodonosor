@@ -20,6 +20,9 @@ super + Escape
 super + p
     flameshot gui
 
+super + ;
+    i3lock-fancy
+
 super + alt + {q,r}
 	bspc {quit,wm -r}
 

@@ -31,21 +31,26 @@ end
 return require("packer").startup(function(use)
 	-- Packer can manage itself
 	use("wbthomason/packer.nvim")
+	-- lua functions that many plugins use
+	use("nvim-lua/plenary.nvim")
 
-	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
-
+	-- game game game !
 	use("ThePrimeagen/vim-be-good")
 
-	use("bluz71/vim-nightfly-guicolors") -- colorscheme! godbye TOOOOKYYOOO =(
+	-- TOKYOOOO!!!!!! colorscheme
+	use("folke/tokyonight.nvim")
 
-	use("christoomey/vim-tmux-navigator") -- tmux & split window navigator
+	-- tmux & split window navigator
+	use("christoomey/vim-tmux-navigator")
 
-	use("szw/vim-maximizer") -- maximizes and restores current window
+	-- maximizes and restores current window
+	use("szw/vim-maximizer")
 
-	use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
+	-- add, delete, change surroundings (it's awesome)
+	use("tpope/vim-surround")
 
-	use("vim-scripts/ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
-
+	-- replace with register contents using motion (gr + motion)
+	use("vim-scripts/ReplaceWithRegister")
 	use("numToStr/Comment.nvim") -- commenting with gc
 
 	use("nvim-tree/nvim-tree.lua") -- file explorer
@@ -99,6 +104,12 @@ return require("packer").startup(function(use)
 
 	--bufferline
 	use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })
+
+	-- scope
+	use({ "tiagovla/scope.nvim" })
+
+	-- nim
+	use({ "alaviss/nim.nvim" })
 
 	if packer_bootstrap then
 		require("packer").sync()
