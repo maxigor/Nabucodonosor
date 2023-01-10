@@ -13,7 +13,6 @@ alias -- -="cd -"
 alias dl="cd ~/Downloads"
 alias speedtest="speedtest-cli"
 alias g="git"
-alias unzip="gunzip -k"
 alias h="history"
 alias top="bpytop"
 
