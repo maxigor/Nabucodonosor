@@ -15,6 +15,8 @@ alias speedtest="speedtest-cli"
 alias g="git"
 alias h="history"
 alias top="bpytop"
+alias code="cd /mnt/Strike\ Eureka/code"
+alias Code="cd /mnt/Strike\ Eureka/code"
 
 
 alias ww="xprop | grep WM_CLASS"
