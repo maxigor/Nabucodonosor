@@ -10,18 +10,21 @@ alias -- -="cd -"
 
 # Shortcuts
 
-alias dl="cd ~/Downloads"
 alias speedtest="speedtest-cli"
 alias g="git"
 alias h="history"
 alias top="bpytop"
-alias code="cd /mnt/Strike\ Eureka/code"
-alias Code="cd /mnt/Strike\ Eureka/code"
+alias dl="cd /mnt/Strike\ Eureka/Downloads"
+alias Code="cd code"
+alias code="cd code"
 
+
+alias find="fd"
+alias cat="bat"
 
 alias ww="xprop | grep WM_CLASS"
 # Disk Space Report
-alias diskspace="df -P -kHl"
+alias diskspace="ncdu"
 
 # be nice
 alias please=sudo
