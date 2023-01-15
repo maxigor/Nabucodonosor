@@ -114,4 +114,9 @@ zenity
 zip                   
 zsh                   
 zsh-completions       
+bind
+ncdu
+tldr
+fd
+bat
 --END OF MINIMAL INSTALL--
