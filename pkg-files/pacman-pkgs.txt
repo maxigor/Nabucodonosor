@@ -1,11 +1,12 @@
-
 alsa-utils 
 ansible-core
 apache                
 asciidoc
 aws-cli
 bash-completion       
+bat
 bc                    
+bind
 bleachbit             
 bluez
 bluez-utils
@@ -18,6 +19,7 @@ electron
 elinks                
 exa
 exfat-utils           
+fd
 feh                   
 file-roller           
 filezilla             
@@ -55,6 +57,7 @@ libxext
 mariadb               
 meld                
 nautilus              
+ncdu
 nemo                  
 neofetch              
 neovim                
@@ -92,6 +95,7 @@ starship
 terminus-font         
 terraform
 thunderbird
+tldr
 ttf-font-awesome
 ttf-roboto
 ttf-roboto-mono
@@ -108,15 +112,11 @@ vlc
 wget                  
 xcb-util-image
 xcb-util-renderutil
+xclip
 xdo
 xpdf                  
 zenity                
 zip                   
 zsh                   
 zsh-completions       
-bind
-ncdu
-tldr
-fd
-bat
 --END OF MINIMAL INSTALL--
