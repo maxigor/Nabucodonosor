@@ -38,7 +38,6 @@ keymap.set("x", "<leader>p", '"_dP')
 keymap.set("n", "<leader>y", '"+y')
 keymap.set("v", "<leader>y", '"+y')
 keymap.set("n", "<leader>Y", '"+Y')
-
 keymap.set("n", "<leader>d", '"_d')
 keymap.set("v", "<leader>d", '"_d')
 
@@ -67,3 +66,7 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
+
+-- chatgpt
+keymap.set("n", "<leader>c", ":ChatGPT<CR>")
+keymap.set("n", "<leader>cg", ":ChatGPTActAs<CR>")

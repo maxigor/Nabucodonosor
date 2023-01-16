@@ -11,7 +11,7 @@ opt.expandtab = true
 opt.autoindent = true
 
 -- line wrapping
-opt.wrap = false
+opt.wrap = true
 
 -- search settings
 opt.ignorecase = true
@@ -32,10 +32,15 @@ opt.incsearch = true
 opt.backspace = "indent,eol,start"
 
 -- clipboard
-opt.clipboard:append("unnamedplus")
 
 -- split windows
 opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+
+vim.opt.colorcolumn = "80"
+vim.opt.scrolloff = 8
+vim.opt.signcolumn = "yes"
+
+vim.o.clipboard = "unnamed,unnamedplus"
