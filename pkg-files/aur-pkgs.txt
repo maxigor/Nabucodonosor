@@ -28,5 +28,6 @@ tor-browser
 ttf-ms-fonts
 upscayl-bin       
 xdf-user-dirs
+lolcat
 
 --END OF MINIMAL INSTALL--
