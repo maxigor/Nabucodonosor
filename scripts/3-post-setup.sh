@@ -115,6 +115,19 @@ echo "enabling and starting bluetooth service..."
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 
+echo "enabling and starting Radarr/Sonarr/Bazarr"
+sudo systemctl enable radarr.service
+sudo systemctl enable sonarr.service
+sudo systemctl enable bazarr.service
+
+sudo systemctl start radarr.service
+sudo systemctl start sonarr.service
+sudo systemctl start bazarr.service
+
+echo "enabling and starting Samba serivce"
+sudo systemctl enable smb.service
+sudo systemctl start smb.service
+
 echo -ne "
 -------------------------------------------------------------------------
                         Setting up Git Account

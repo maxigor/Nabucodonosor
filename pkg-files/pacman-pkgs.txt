@@ -11,9 +11,10 @@ bleachbit
 bluez
 bluez-utils
 bpytop
+cifs-utils
 clang                 
 cmake                 
-curl                  
+curl
 dunst
 electron              
 elinks                
@@ -35,6 +36,7 @@ github-cli
 glibc                 
 gparted               
 gufw                  
+gvfs-smb
 hexchat               
 hicolor-icon-theme
 htop                  
@@ -55,7 +57,8 @@ libxcb
 libxdg-basedir
 libxext
 mariadb               
-meld                
+meld      
+mlocate
 nautilus              
 ncdu
 nemo                  
@@ -76,6 +79,7 @@ pcre
 php                   
 php-apache            
 pixman
+pkgfile
 plank
 pngcrush              
 polybar               
@@ -89,9 +93,12 @@ qtcreator
 ristretto             
 rofi
 rsync                 
+samba
 simplescreenrecorder  
+smbclient
 speedtest-cli         
 starship              
+telegram-desktop
 terminus-font         
 terraform
 thunderbird
