@@ -27,10 +27,11 @@ bspc rule -a org.gnome.Nautilus state=floating
 bspc rule -a qbittorrent desktop="^2"
 bspc rule -a hexchat desktop="^5"
 bspc rule -a 'VirtualBox Manager' desktop="^7" follow=on state=floating
+bspc rule -a 'VirtualBox' desktop="^7" follow=on state=floating
 
-${HOME}/.config/.fehbg
+$HOME/.config/.fehbg
 xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate right --output DP-0 --primary --mode 1920x1080 --pos 1080x420 --rotate normal --output DP-1 --off
-xrdb ${HOME}/.Xresources
+xrdb $HOME/.Xresources
 $HOME/.config/polybar/launch.sh
 $HOME/.config/bspwm/autostart.sh
 picom # --experimental-backends
