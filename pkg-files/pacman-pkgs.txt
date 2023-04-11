@@ -21,7 +21,7 @@ elinks
 exa
 exfat-utils           
 fd
-feh                   
+feh
 file-roller           
 filezilla             
 firefox               
@@ -97,6 +97,7 @@ samba
 simplescreenrecorder  
 smbclient
 speedtest-cli         
+spotify-launcher
 starship              
 telegram-desktop
 terminus-font         
@@ -117,6 +118,7 @@ virtualbox-guest-utils
 virtualbox-host-modules-arch
 vlc                   
 wget                  
+xautolock
 xcb-util-image
 xcb-util-renderutil
 xclip
