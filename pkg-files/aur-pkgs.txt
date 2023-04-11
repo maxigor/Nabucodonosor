@@ -1,4 +1,3 @@
-
 7-zip-full
 autojump                  
 backlight_control
@@ -27,7 +26,6 @@ radarr
 rtl88xxau-aircrack-dkms-git
 shell-color-scripts
 sonarr
-spotifyd
 timeshift          
 tor-browser
 ttf-ms-fonts
