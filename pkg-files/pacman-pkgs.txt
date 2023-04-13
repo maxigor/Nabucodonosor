@@ -124,6 +124,8 @@ xcb-util-renderutil
 xclip
 xdo
 xpdf                  
+yara
+yara
 zenity                
 zip                   
 zsh                   
