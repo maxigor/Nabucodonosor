@@ -24,12 +24,13 @@ bspc rule -a 'Spotify' desktop='^2' follow=on
 bspc rule -a 'thunderbird' desktop='^2'
 bspc rule -a KeePassXC state=floating
 bspc rule -a org.gnome.Nautilus state=floating
-bspc rule -a 'qbittorrent' desktop='^8'
+bspc rule -a 'qBittorrent' desktop='^8'
 bspc rule -a 'Nemo' state=floating
 bspc rule -a 'File-roller' state=floating
 bspc rule -a 'monero-wallet-gui' state=floating
 bspc rule -a 'monero-core' state=floating
 bspc rule -a 'TelegramDesktop' state=floating
+bspc rule -a 'Whatsapp-for-linux' state=floating
 bspc rule -a hexchat desktop="^5"
 bspc rule -a 'VirtualBox Manager' desktop="^6" follow=on state=floating
 bspc rule -a 'VirtualBox' desktop="^6" follow=on state=floating
