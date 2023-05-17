@@ -15,7 +15,9 @@ cifs-utils
 clang                 
 cmake                 
 curl
+dnsmasq
 dunst
+edk2-ovmf
 electron              
 elinks                
 exa
@@ -52,6 +54,7 @@ libdbus
 libev
 libglvnd
 libreoffice-fresh     
+libvirt
 libx11
 libxcb
 libxdg-basedir
@@ -88,6 +91,7 @@ pulseaudio
 python                
 python-pip
 qbittorrent           
+qemu
 qt5-examples        
 qtcreator           
 ristretto             
@@ -99,6 +103,7 @@ smbclient
 speedtest-cli         
 spotify-launcher
 starship              
+swtpm
 telegram-desktop
 terminus-font         
 terraform
@@ -113,6 +118,8 @@ usbutils
 uthash
 veracrypt             
 vim                   
+virt-manager
+virt-viewer
 virtualbox
 virtualbox-guest-utils
 virtualbox-host-modules-arch

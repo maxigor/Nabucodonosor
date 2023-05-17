@@ -12,6 +12,7 @@ librewolf-bin
 lolcat
 ly						       
 moreutils
+mullvad-browser-bin
 nerd-fonts-complete
 nordvpn-bin
 obinskit

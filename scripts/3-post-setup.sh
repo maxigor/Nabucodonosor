@@ -128,6 +128,10 @@ echo "enabling and starting Samba serivce"
 sudo systemctl enable smb.service
 sudo systemctl start smb.service
 
+echo "enabling libvirtd"
+sudo systemctl enable --now libvirtd.service
+sudo systemctl start libvirtd.service
+
 echo -ne "
 -------------------------------------------------------------------------
                         Setting up Git Account
