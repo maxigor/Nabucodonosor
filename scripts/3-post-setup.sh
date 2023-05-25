@@ -139,8 +139,8 @@ echo -ne "
 "
 
 echo "Configuring git email and user..."
-git config --global user.email "maxigor.ferreira@gmail.com"
-git config --global user.name "Max"
+git config --global user.email maxigor.ferreira@gmail.com
+git config --global user.name Max
 
 echo "done"
 
@@ -185,9 +185,6 @@ sed -i 's/^%wheel ALL=(ALL:ALL) NOPASSWD: ALL/# %wheel ALL=(ALL:ALL) NOPASSWD: A
 sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
 
-
-rm -r $HOME/nabucodonosor
-rm -r /home/$USERNAME/nabucodonosor
 rm -r /home/$USERNAME/paru
 
 # Replace in the same state
