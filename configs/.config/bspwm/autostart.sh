@@ -4,4 +4,4 @@ alacritty &
 firefox &
 thunderbird &
 qbittorrent &
-xautolock -time 3 -locker i3lock-fancy &
+xautolock -time 5 -locker i3lock-fancy &
