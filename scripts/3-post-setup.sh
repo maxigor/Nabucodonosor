@@ -72,6 +72,29 @@ sudo fc-cache -fv
 
 echo -ne "
 -------------------------------------------------------------------------
+                        Symlink directory
+-------------------------------------------------------------------------
+"
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/alacritty /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/bspwm /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/dunst /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/hexchat /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/jgmenu /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/neofetch /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/nvim /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/polybar /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/qBittorrent /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/rofi /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/sxhkd /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/wallpaper /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/.fehbg /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/pavucontrol.ini /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/picom.conf /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/starship.toml /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.zshrc /home/$USERNAME/
+
+echo -ne "
+-------------------------------------------------------------------------
                         Installing XQP
 -------------------------------------------------------------------------
 "
