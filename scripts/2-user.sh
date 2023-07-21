@@ -54,7 +54,6 @@ fi
 export PATH=$PATH:~/.local/bin
 
 mkdir ~/.config
-cp -r ~/nabucodonosor/configs/.config ~/
 cp ~/nabucodonosor/configs/.Xresources ~/
 cp ~/nabucodonosor/configs/.xinitrc ~/
 cp ~/nabucodonosor/configs/.zshrc ~/
