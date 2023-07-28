@@ -17,7 +17,7 @@ nordvpn-bin
 obinskit
 octopi
 openrazer
-picom-pijulius-git    
+picom-git
 plank
 plex-media-server
 plymouth                 
