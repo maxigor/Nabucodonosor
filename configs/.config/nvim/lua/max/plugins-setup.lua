@@ -80,8 +80,15 @@ return require("packer").startup(function(use)
 	-- configuring lsp servers
 	use("neovim/nvim-lspconfig") -- easily configure language servers
 	use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
-	use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
+    use({
+        "glepnir/lspsaga.nvim",
+        branch = "main",
+        config = function()
+           require("lspsaga").setup({})
+        end,
+        requires = { {"nvim-tree/nvim-web-devicons"} }
+    })
 
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
@@ -111,17 +118,6 @@ return require("packer").startup(function(use)
 	-- nim
 	use({ "alaviss/nim.nvim" })
 
-	use({
-		"jackMort/ChatGPT.nvim",
-		config = function()
-			require("chatgpt").setup({
-				-- optional configuration
-			})
-		end,
-		requires = {
-			"MunifTanjim/nui.nvim",
-		},
-	})
 
 	if packer_bootstrap then
 		require("packer").sync()

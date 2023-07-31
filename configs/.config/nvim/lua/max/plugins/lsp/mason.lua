@@ -29,13 +29,10 @@ mason_lspconfig.setup({
     "cssls",
     "sumneko_lua", -- lua
     "emmet_ls", -- emmet
-    "jedi_language_server", -- python
-    "solang", -- solidity
     "terraformls", --terraform
     "ansiblels", --ansible
     -- "nimls", -- nim
     -- "powershell_es", -- powershell
-    "bashls" --bash
   },
   -- auto-install configured servers (with lspconfig)
   automatic_installation = true, -- not the same as ensure_installed
