@@ -1,0 +1,7 @@
+[general]
+base_currency = USD
+display = price
+
+[ethereum]
+icon = 
+
