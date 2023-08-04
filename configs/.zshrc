@@ -18,6 +18,8 @@ alias dl="cd /mnt/Strike\ Eureka/Downloads"
 alias Code="cd code"
 alias code="cd code"
 
+alias monitoroff="xset dpms force suspend"
+alias logoff="bspc quit"
 
 alias find="fd"
 alias cat="bat"
