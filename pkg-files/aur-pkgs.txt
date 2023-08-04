@@ -15,6 +15,7 @@ moreutils
 mullvad-browser-bin
 nerd-fonts-complete
 nordvpn-bin
+notion-app
 obinskit
 octopi
 openrazer
