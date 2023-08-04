@@ -31,9 +31,11 @@ bspc rule -a 'monero-wallet-gui' state=floating
 bspc rule -a 'monero-core' state=floating
 bspc rule -a 'TelegramDesktop' state=floating
 bspc rule -a 'Galculator' state=floating
+bspc rule -a 'Pavucontrol' state=floating
+bspc rule -a 'Nvidia-settings' state=floating
 bspc rule -a 'steam' state=floating desktop='^5'
 bspc rule -a 'steamwebhelper' state=floating desktop='^5'
-bspc rule -a hexchat desktop="^5"
+bspc rule -a 'Hexchat' desktop="^7"
 bspc rule -a 'VirtualBox Manager' desktop="^6" follow=on state=floating
 bspc rule -a 'VirtualBox' desktop="^6" follow=on state=floating
 
