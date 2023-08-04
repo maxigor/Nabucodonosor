@@ -1,7 +1,9 @@
 #!/bin/bash
 
+picom &
+xautolock -time 5 -locker i3lock-fancy &
 alacritty &
 firefox &
 thunderbird &
 qbittorrent &
-xautolock -time 5 -locker i3lock-fancy &
+insync start &
