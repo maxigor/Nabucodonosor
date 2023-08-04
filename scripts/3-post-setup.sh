@@ -91,6 +91,7 @@ ln -s /home/$USERNAME/nabucodonosor/configs/.config/.fehbg /home/$USERNAME/.conf
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/pavucontrol.ini /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/picom.conf /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/starship.toml /home/$USERNAME/.config/
+rm -rf .zshrc
 ln -s /home/$USERNAME/nabucodonosor/configs/.zshrc /home/$USERNAME/
 
 echo -ne "
