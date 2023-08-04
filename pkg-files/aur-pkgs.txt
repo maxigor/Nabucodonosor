@@ -33,6 +33,5 @@ sonarr
 timeshift          
 tor-browser
 ttf-ms-fonts
-upscayl-bin       
 xdf-user-dirs
 --END OF MINIMAL INSTALL--
