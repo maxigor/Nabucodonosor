@@ -25,6 +25,7 @@ bspc rule -a 'thunderbird' desktop='^2'
 bspc rule -a KeePassXC state=floating
 bspc rule -a org.gnome.Nautilus state=floating
 bspc rule -a 'qBittorrent' desktop='^8'
+bspc rule -a 'notion-app' desktop='^8'
 bspc rule -a 'Nemo' state=floating
 bspc rule -a 'File-roller' state=floating
 bspc rule -a 'monero-wallet-gui' state=floating
@@ -38,9 +39,10 @@ bspc rule -a 'steamwebhelper' state=floating desktop='^5'
 bspc rule -a 'Hexchat' desktop="^7"
 bspc rule -a 'VirtualBox Manager' desktop="^6" follow=on state=floating
 bspc rule -a 'VirtualBox' desktop="^6" follow=on state=floating
+bspc rule -a 'Brave-browser' desktop="^9"
 
-$HOME/.config/.fehbg
 xrandr --output DP-2 --rotate right --mode 1920x1080 --rate 60 --pos 0x0 --output DP-0 --primary --rotate normal --mode 1920x1080 --rate 165 --pos 1080x420 
 xrdb $HOME/.Xresources
 $HOME/.config/polybar/launch.sh 
 $HOME/.config/bspwm/autostart.sh
+$HOME/.config/.fehbg
