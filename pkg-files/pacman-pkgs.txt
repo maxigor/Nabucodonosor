@@ -131,6 +131,7 @@ xautolock
 xcb-util-image
 xcb-util-renderutil
 xclip
+xdg-user-dir
 xdo
 xpdf                  
 yara
