@@ -78,7 +78,6 @@ echo -ne "
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/alacritty /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/bspwm /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/dunst /home/$USERNAME/.config/
-ln -s /home/$USERNAME/nabucodonosor/configs/.config/hexchat /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/jgmenu /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/neofetch /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/nvim /home/$USERNAME/.config/
@@ -93,6 +92,15 @@ ln -s /home/$USERNAME/nabucodonosor/configs/.config/picom.conf /home/$USERNAME/.
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/starship.toml /home/$USERNAME/.config/
 rm -rf .zshrc
 ln -s /home/$USERNAME/nabucodonosor/configs/.zshrc /home/$USERNAME/
+
+echo -ne "
+-------------------------------------------------------------------------
+                        Setting keyboard layout
+-------------------------------------------------------------------------
+"
+
+#anne pro 2 pt-br 4 the win
+setxkbmap -model abnt -layout us -variant intl
 
 echo -ne "
 -------------------------------------------------------------------------
