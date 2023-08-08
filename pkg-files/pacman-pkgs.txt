@@ -88,6 +88,7 @@ pngcrush
 polybar               
 postfix             
 pulseaudio
+pulseaudio-bluetooth
 python                
 python-pip
 qbittorrent           
@@ -103,6 +104,7 @@ smbclient
 speedtest-cli         
 spotify-launcher
 starship              
+steam
 swtpm
 telegram-desktop
 terminus-font         
