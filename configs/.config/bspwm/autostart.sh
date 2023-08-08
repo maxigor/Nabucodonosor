@@ -3,7 +3,7 @@
 picom &
 xautolock -time 5 -locker i3lock-fancy &
 alacritty &
-nordvpn c
+nordvpn c &
 firefox &
 thunderbird &
 qbittorrent &
@@ -13,3 +13,4 @@ hexchat &
 discord &
 spotify-launcher &
 steam &
+brave &
