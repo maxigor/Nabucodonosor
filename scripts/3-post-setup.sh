@@ -127,7 +127,6 @@ systemctl enable NetworkManager.service
 
 echo "Enabling Ly Display Manager..."
 sudo systemctl enable ly.service
-sudo cp ~/nabucodonosor/configs/config.ini /etc/ly/
 
 echo "Enabling and Starting Plex Media Service..."
 sudo systemctl enable plexmediaserver
