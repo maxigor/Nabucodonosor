@@ -9,7 +9,7 @@ from os.path import expanduser
 config = configparser.ConfigParser()
 
 # File must be opened with utf-8 explicitly
-with open(expanduser('/home/max/nostromo/configs/.config/polybar/scripts/eth'), 'r', encoding='utf-8') as f:
+with open(expanduser('/home/max/nabucodonosor/configs/.config/polybar/scripts/eth'), 'r', encoding='utf-8') as f:
     config.read_file(f)
 
 # Everything except the general section
