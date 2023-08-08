@@ -14,3 +14,4 @@ discord &
 spotify-launcher &
 steam &
 brave &
+notion-app &
