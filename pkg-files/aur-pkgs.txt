@@ -1,4 +1,5 @@
 7-zip-full
+anaconda
 autojump                  
 bazarr
 brave-bin
@@ -24,6 +25,7 @@ plank
 plex-media-server
 plymouth                 
 polychromatic
+postman-bin
 pulseaudio-control 
 python-xdg
 radarr
