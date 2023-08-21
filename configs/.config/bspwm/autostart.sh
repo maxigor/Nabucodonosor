@@ -1,8 +1,9 @@
 #!/bin/bash
 
 picom &
-setxkbmap -model abnt -layout us -variant intl &
+setxkbmap -model abnt2 -layout us -variant intl &
 xautolock -time 5 -locker i3lock-fancy &
+xset s 306 306 &
 alacritty &
 nordvpn c &
 firefox &
@@ -16,4 +17,3 @@ spotify-launcher &
 steam &
 brave &
 notion-app &
-bitcoin-qt &
