@@ -2,8 +2,9 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor DP-2 -d I II III
-bspc monitor DP-0 -d IV V VI VII VIII IX X 
+bspc monitor DP-0 -d I II III
+bspc monitor DP-2 -d IV V VI VII VIII IX X 
+bspc monitor DP-4 -d 
 
 bspc config border_radius		        3
 bspc config border_width         	    3
@@ -39,7 +40,7 @@ bspc rule -a 'VirtualBox Manager' desktop="^6" follow=on state=floating
 bspc rule -a 'VirtualBox' desktop="^6" follow=on state=floating
 bspc rule -a 'Brave-browser' desktop="^9"
 
-xrandr --output DP-2 --rotate right --mode 1920x1080 --rate 60 --pos 0x0 --output DP-0 --primary --rotate normal --mode 1920x1080 --rate 165 --pos 1080x420 
+xrandr --output DP-0 --rotate right --mode 1920x1080 --rate 60 --pos 0x0 --output DP-2 --primary --rotate normal --mode 1920x1080 --rate 165 --pos 1080x420 --output DP-4 --primary --rotate left --mode 1920x1080 --rate 165 --pos 3000x0
 xrdb $HOME/.Xresources
 $HOME/.config/polybar/launch.sh 
 $HOME/.config/bspwm/autostart.sh
