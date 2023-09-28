@@ -132,11 +132,6 @@ echo "Enabling and Starting Plex Media Service..."
 sudo systemctl enable plexmediaserver
 sudo systemctl start plexmediaserver
 
-echo "Enabling and Starting NordVPN..."
-groupadd -r nordvpn
-sudo usermod -aG nordvpn $USER
-sudo systemctl enable nordvpnd.service
-sudo systemctl start nordvpnd.service
 
 echo "enabling virtualbox service"
 sudo systemctl enable vboxservice.service
