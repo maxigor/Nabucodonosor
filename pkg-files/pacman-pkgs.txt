@@ -117,6 +117,7 @@ terminus-font
 terraform
 thunderbird
 tldr
+traceroute
 ttf-arphic-ukai 
 ttf-arphic-uming
 ttf-font-awesome
