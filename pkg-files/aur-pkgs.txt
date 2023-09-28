@@ -14,8 +14,8 @@ lolcat
 ly						       
 moreutils
 mullvad-browser-bin
+mullvad-vpn
 nerd-fonts-complete
-nordvpn-bin
 notion-app
 obinskit
 octopi
@@ -32,8 +32,10 @@ radarr
 rtl88xxau-aircrack-dkms-git
 shell-color-scripts
 sonarr
+teams
 timeshift          
 tor-browser
 ttf-ms-fonts
 xdf-user-dirs
+zoom
 --END OF MINIMAL INSTALL--
