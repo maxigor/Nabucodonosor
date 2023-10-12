@@ -35,4 +35,38 @@ end
 -- used to enable autocompletion (assign to every lsp server config)
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
+-- configure html server
+lspconfig["html"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
+-- configure css server
+lspconfig["cssls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
+-- configure tailwindcss server
+lspconfig["tailwindcss"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
+-- configure emmet language server
+lspconfig["emmet_ls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+	filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+})
+
 -- configure lua server (with special settings)
+lspconfig["lua_ls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+-- configure lua server (with special settings)
+lspconfig["pyright"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
