@@ -15,7 +15,7 @@ notion-app &
 spotify-launcher &
 sleep 3 
 fcitx5 &
-hexchat &
+# hexchat &
 xautolock -time 5 -locker i3lock-fancy &
 xset s 306 306 &
 setxkbmap -model abnt2 -layout us -variant intl &

@@ -9,7 +9,7 @@ while pgrep -u $UID -x polybar > /dev/null; do sleep 1; done
 
 if type "xrandr" > /dev/null; then
       for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-        if [[ $m == "DP-2" ]]; then
+        if [[ $m == "DP-4" ]]; then
           MONITOR=$m polybar --reload mainbar -c ~/.config/polybar/config.ini &        
         else   
           MONITOR=$m polybar --reload leftbar -c ~/.config/polybar/config.ini &        

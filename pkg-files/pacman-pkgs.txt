@@ -93,6 +93,7 @@ plank
 pngcrush              
 polybar               
 postfix             
+postgresql 
 pulseaudio
 pulseaudio-bluetooth
 python                
@@ -101,6 +102,7 @@ qbittorrent
 qemu
 qt5-examples        
 qtcreator           
+ripgrep
 ristretto             
 rofi
 rsync                 

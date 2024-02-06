@@ -1,5 +1,4 @@
-
-
+export PATH=$PATH:/usr/local/bin
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -14,16 +13,19 @@ alias speedtest="speedtest-cli"
 alias g="git"
 alias h="history"
 alias top="bpytop"
-alias dl="cd /mnt/Strike\ Eureka/Downloads"
-alias Code="cd code"
-alias code="cd code"
+alias d="cd /mnt/Strike\ Eureka/Downloads"
+alias c="cd /mnt/Strike\ Eureka/Code/"
+alias code="cd /mnt/Strike\ Eureka/Code/"
+
 
 alias monitoroff="xset dpms force suspend"
 alias logoff="bspc quit"
 
+alias kb="setxkbmap -model abnt2 -layout us -variant intl &"
+alias veramount="sudo veracrypt -m=nokernelcrypto"
 alias find="fd"
 alias cat="bat"
-
+alias myip="curl ifconfig.me"
 alias ww="xprop | grep WM_CLASS"
 # Disk Space Report
 alias diskspace="ncdu"

@@ -70,3 +70,9 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 -- chatgpt
 keymap.set("n", "<leader>c", ":ChatGPT<CR>")
 keymap.set("n", "<leader>cg", ":ChatGPTActAs<CR>")
+
+keymap.set("n", "<leader>db", "<cmd> DapToggleBreakpoint <cr>")
+
+keymap.set("n", "<leader>dpr", function()
+	require("dap-python").test_method()
+end)
