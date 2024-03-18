@@ -4,7 +4,6 @@ alsa-utils
 ansible-core
 apache                
 asciidoc
-aws-cli
 bash-completion       
 bat
 bc                    
@@ -64,7 +63,7 @@ libx11
 libxcb
 libxdg-basedir
 libxext
-mariadb               
+mariadb   
 meld      
 mlocate
 nautilus              
@@ -127,12 +126,10 @@ ttf-roboto
 ttf-roboto-mono
 unrar                 
 unzip                 
-usbutils		        
+usbutils      
 uthash
 veracrypt             
 vim                   
-virt-manager
-virt-viewer
 virtualbox
 virtualbox-guest-utils
 virtualbox-host-modules-arch

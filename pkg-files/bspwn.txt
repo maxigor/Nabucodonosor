@@ -9,6 +9,6 @@ xorg-drivers
 xorg-xkill
 xorg-xinit
 base-devel
-linux-headers
+linux-lts-headers
 --END OF MINIMAL INSTALL--
 
