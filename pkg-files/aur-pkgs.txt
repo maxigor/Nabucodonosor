@@ -1,5 +1,4 @@
 7-zip-full
-anaconda
 autojump                  
 bazarr
 brave-bin
@@ -11,7 +10,7 @@ i3lock-fancy
 insync
 librewolf-bin
 lolcat
-ly						       
+ly       
 moreutils
 mullvad-browser-bin
 mullvad-vpn
