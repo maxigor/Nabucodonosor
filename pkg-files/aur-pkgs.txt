@@ -16,7 +16,6 @@ mullvad-browser-bin
 mullvad-vpn
 nerd-fonts-complete
 notion-app
-obinskit
 octopi
 openrazer
 picom-git
