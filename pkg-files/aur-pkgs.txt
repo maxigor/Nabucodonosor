@@ -8,12 +8,10 @@ gtk-engines
 gtk3
 i3lock-fancy        
 insync
-librewolf-bin
 lolcat
 ly
 moreutils
 mullvad-browser-bin
-mullvad-vpn
 nerd-fonts-complete
 notion-app
 octopi
@@ -23,11 +21,9 @@ plank
 plex-media-server
 plymouth                 
 polychromatic
-postman-bin
 pulseaudio-control 
 python-xdg
 radarr
-rtl88xxau-aircrack-dkms-git
 shell-color-scripts
 sonarr
 teams

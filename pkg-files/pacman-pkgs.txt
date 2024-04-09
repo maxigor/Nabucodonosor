@@ -84,8 +84,6 @@ papirus-icon-theme
 parted                
 pavucontrol
 pcre
-php                   
-php-apache            
 pixman
 pkgfile
 plank
