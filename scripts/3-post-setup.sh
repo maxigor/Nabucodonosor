@@ -33,29 +33,29 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 # set kernel parameter for decrypting the drive
-#if [[ "${FS}" == "luks" ]]; then
-#sed -i "s%GRUB_CMDLINE_LINUX_DEFAULT=\"%GRUB_CMDLINE_LINUX_DEFAULT=\"cryptdevice=UUID=${ENCRYPTED_PARTITION_UUID}:ROOT root=/dev/mapper/ROOT %g" /etc/default/grub
-#fi
+if [[ "${FS}" == "luks" ]]; then
+	sed -i "s%GRUB_CMDLINE_LINUX_DEFAULT=\"%GRUB_CMDLINE_LINUX_DEFAULT=\"cryptdevice=UUID=${ENCRYPTED_PARTITION_UUID}:ROOT root=/dev/mapper/ROOT %g" /etc/default/grub
+fi
 # set kernel parameter for adding splash screen
-#sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="[^"]*/& splash /' /etc/default/grub
+sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="[^"]*/& splash /' /etc/default/grub
 
-#echo -e "Installing CyberRe Grub theme..."
-#THEME_DIR="/boot/grub/themes"
-#THEME_NAME=CyberRe
-#echo -e "Creating the theme directory..."
-#mkdir -p "${THEME_DIR}/${THEME_NAME}"
-#echo -e "Copying the theme.. e."
-#cd ${HOME}/nabucodonosor
-#cp -a configs${THEME_DIR}/${THEME_NAME}/* ${THEME_DIR}/${THEME_NAME}
-#echo -e "Backing up Grub config..."
-#cp -an /etc/default/grub /etc/default/grub.bak
-#echo -e "Setting the theme as the default..."
-#grep "GRUB_THEME=" /etc/default/grub 2>&1 >/dev/null && sed -i '/GRUB_THEME=/d' /etc/default/grub
-#echo "GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"" >> /etc/default/grub
-#echo -e "Updating grub..."
-#cp -r ${HOME}/nabucodonosor/configs/default/grub /etc/default/grub
-#grub-mkconfig -o /boot/grub/grub.cfg
-#echo -e "All set!"
+echo -e "Installing CyberRe Grub theme..."
+THEME_DIR="/boot/grub/themes"
+THEME_NAME=CyberRe
+echo -e "Creating the theme directory..."
+mkdir -p "${THEME_DIR}/${THEME_NAME}"
+echo -e "Copying the theme.. e."
+cd ${HOME}/nabucodonosor
+cp -a configs${THEME_DIR}/${THEME_NAME}/* ${THEME_DIR}/${THEME_NAME}
+echo -e "Backing up Grub config..."
+cp -an /etc/default/grub /etc/default/grub.bak
+echo -e "Setting the theme as the default..."
+grep "GRUB_THEME=" /etc/default/grub 2>&1 >/dev/null && sed -i '/GRUB_THEME=/d' /etc/default/grub
+echo "GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"" >>/etc/default/grub
+echo -e "Updating grub..."
+cp -r ${HOME}/nabucodonosor/configs/default/grub /etc/default/grub
+grub-mkconfig -o /boot/grub/grub.cfg
+echo -e "All set!"
 
 echo -ne "
 -------------------------------------------------------------------------
@@ -192,7 +192,7 @@ gpu_type=$(lspci)
 if grep -E "NVIDIA|GeForce" <<<${gpu_type}; then
 	sed -i 's/MODULE=(*/& nvidia nvidia_modset nvidia_uvm nvidia_drm/' /etc/mkinitcpio.conf # add nvidia modules
 	cp {HOME}/nabucodonosor/configs/70-nvidia.rules /etc/udev/rules.d/
-	mkinitcpio -P
+	mkinitcpio -P linux-lts
 fi
 echo -ne "
 -------------------------------------------------------------------------
