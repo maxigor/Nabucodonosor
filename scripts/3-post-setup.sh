@@ -171,29 +171,29 @@ echo -ne "
                Enabling (and Theming) Plymouth Boot Splash
 -------------------------------------------------------------------------
 "
-#PLYMOUTH_THEMES_DIR="$HOME/nabucodonosor/configs/usr/share/plymouth/themes"
-#PLYMOUTH_THEME="hexagon_red" # can grab from config later if we allow selection
-#mkdir -p /usr/share/plymouth/themes
-#echo 'Installing Plymouth theme...'
+PLYMOUTH_THEMES_DIR="$HOME/nabucodonosor/configs/usr/share/plymouth/themes"
+PLYMOUTH_THEME="hexagon_red" # can grab from config later if we allow selection
+mkdir -p /usr/share/plymouth/themes
+echo 'Installing Plymouth theme...'
 
-#cp -rf ${PLYMOUTH_THEMES_DIR}/${PLYMOUTH_THEME} /usr/share/plymouth/themes
+cp -rf ${PLYMOUTH_THEMES_DIR}/${PLYMOUTH_THEME} /usr/share/plymouth/themes
 
-#sed -i 's/HOOKS=(base udev*/& plymouth/' /etc/mkinitcpio.conf # add plymouth after base udev
+sed -i 's/HOOKS=(base udev*/& plymouth/' /etc/mkinitcpio.conf # add plymouth after base udev
 
-#plymouth-set-default-theme -R hexagon_red # sets the theme and runs mkinitcpio
-#echo 'Plymouth theme installed'
+plymouth-set-default-theme -R hexagon_red # sets the theme and runs mkinitcpio
+echo 'Plymouth theme installed'
 
 echo -ne "
 -------------------------------------------------------------------------
                             Nvidia Modules
 -------------------------------------------------------------------------
 "
-gpu_type=$(lspci)
-if grep -E "NVIDIA|GeForce" <<<${gpu_type}; then
-	sed -i 's/MODULE=(*/& nvidia nvidia_modset nvidia_uvm nvidia_drm/' /etc/mkinitcpio.conf # add nvidia modules
-	cp {HOME}/nabucodonosor/configs/70-nvidia.rules /etc/udev/rules.d/
-	mkinitcpio -P linux-lts
-fi
+#gpu_type=$(lspci)
+#if grep -E "NVIDIA|GeForce" <<<${gpu_type}; then
+#	sed -i 's/MODULE=(*/& nvidia nvidia_modset nvidia_uvm nvidia_drm/' /etc/mkinitcpio.conf # add nvidia modules
+#	cp {HOME}/nabucodonosor/configs/70-nvidia.rules /etc/udev/rules.d/
+#	mkinitcpio -P linux-lts
+#fi
 echo -ne "
 -------------------------------------------------------------------------
                     Cleaning
