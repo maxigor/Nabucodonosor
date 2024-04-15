@@ -115,7 +115,7 @@ echo -ne "
 # Graphics Drivers find and install
 gpu_type=$(lspci)
 if grep -E "NVIDIA|GeForce" <<<${gpu_type}; then
-	pacman -S --noconfirm --needed nvidia nvidia-utils lib32-nvidia-utils nvidia-settings
+	pacman -S --noconfirm --needed nvidia-lts nvidia-utils nvidia-settings
 	nvidia-xconfig
 elif grep -E "Integrated Graphics Controller" <<<${gpu_type}; then
 	pacman -S --noconfirm --needed libva-intel-driver libvdpau-va-gl lib32-vulkan-intel vulkan-intel libva-intel-driver libva-utils lib32-mesa
@@ -186,7 +186,7 @@ if [[ ${FS} == "luks" ]]; then
 	# add encrypt in mkinitcpio.conf before filesystems in hooks
 	sed -i 's/filesystems/encrypt filesystems/g' /etc/mkinitcpio.conf
 	# making mkinitcpio with linux kernel
-	mkinitcpio -p linux-lts
+	mkinitcpio -p linux
 fi
 echo -ne "
 -------------------------------------------------------------------------
