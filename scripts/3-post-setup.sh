@@ -188,12 +188,23 @@ echo -ne "
                             Nvidia Modules
 -------------------------------------------------------------------------
 "
-gpu_type=$(lspci)
-if grep -E "NVIDIA|GeForce" <<<${gpu_type}; then
-	sed -i 's/MODULE=(*/& nvidia nvidia_modset nvidia_uvm nvidia_drm/' /etc/mkinitcpio.conf # add nvidia modules
-	cp {HOME}/nabucodonosor/configs/70-nvidia.rules /etc/udev/rules.d/
-	mkinitcpio -P linux
-fi
+#gpu_type=$(lspci)
+#if grep -E "NVIDIA|GeForce" <<<${gpu_type}; then
+#	sed -i 's/MODULE=(*/& nvidia nvidia_modset nvidia_uvm nvidia_drm/' /etc/mkinitcpio.conf # add nvidia modules
+#	cp {HOME}/nabucodonosor/configs/70-nvidia.rules /etc/udev/rules.d/
+#	mkinitcpio -P linux
+#fi
+
+echo -ne "
+------------------------------------------------------------------------
+                            Fuck you, Nvidia!
+-------------------------------------------------------------------------
+"
+#fuck u nvidia and ur shitty modules
+pacman -S xf86-video-nouveau
+
+cp {HOME}/nabucodonosor/configs/20-noveau.conf /etc/X11/xorg.conf.d/
+
 echo -ne "
 -------------------------------------------------------------------------
                     Cleaning
