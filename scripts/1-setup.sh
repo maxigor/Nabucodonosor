@@ -114,7 +114,7 @@ echo -ne "
 "
 # Graphics Drivers find and install
 gpu_type=$(lspci)
-if grep -E "NVIDIA|GeForce" <<<${gpu_type}; then
+#if grep -E "NVIDIA|GeForce" <<<${gpu_type}; then
 #	pacman -S --noconfirm --needed nvidia-lts nvidia-utils nvidia-settings
 #	nvidia-xconfig
 elif grep -E "Integrated Graphics Controller" <<<${gpu_type}; then
