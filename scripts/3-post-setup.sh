@@ -201,9 +201,9 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 #fuck u nvidia and ur shitty modules
-pacman -S xf86-video-nouveau
+pacman -S xf86-video-nouveau --noconfirm
 
-cp {HOME}/nabucodonosor/configs/20-noveau.conf /etc/X11/xorg.conf.d/
+cp {HOME}/nabucodonosor/configs/20-nouveau.conf /etc/X11/xorg.conf.d/
 
 echo -ne "
 -------------------------------------------------------------------------
