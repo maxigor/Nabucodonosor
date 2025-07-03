@@ -75,8 +75,6 @@ echo -ne "
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/alacritty /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/bspwm /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/dunst /home/$USERNAME/.config/
-ln -s /home/$USERNAME/nabucodonosor/configs/.config/jgmenu /home/$USERNAME/.config/
-ln -s /home/$USERNAME/nabucodonosor/configs/.config/neofetch /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/nvim /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/polybar /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/qBittorrent /home/$USERNAME/.config/
@@ -154,17 +152,6 @@ echo "enabling libvirtd"
 sudo systemctl enable --now libvirtd.service
 sudo systemctl start libvirtd.service
 
-echo -ne "
--------------------------------------------------------------------------
-                        Setting up Git Account
--------------------------------------------------------------------------
-"
-
-echo "Configuring git email and user..."
-git config --global user.email maxigor.ferreira@gmail.com
-git config --global user.name Max
-
-echo "done"
 
 echo -ne "
 -------------------------------------------------------------------------

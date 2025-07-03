@@ -1,6 +1,5 @@
 7-zip-full
 autojump                  
-bazarr
 brave-bin
 discord                       
 gtk-engine-murrine
@@ -13,23 +12,15 @@ ly
 moreutils
 mullvad-browser-bin
 nerd-fonts-complete
-notion-app
-octopi
 openrazer
 picom-git
-plank
-plex-media-server
 plymouth                 
 polychromatic
 pulseaudio-control 
 python-xdg
-radarr
 shell-color-scripts
-sonarr
-teams
 timeshift          
 tor-browser
 ttf-ms-fonts
 xdf-user-dirs
-zoom
 --END OF MINIMAL INSTALL--
