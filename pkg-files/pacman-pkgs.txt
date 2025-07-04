@@ -38,7 +38,6 @@ file-roller
 filezilla
 firefox
 flameshot
-flatpak
 font-manager
 fuseiso
 galculator
@@ -125,7 +124,6 @@ samba
 scalpel-git
 simple-mtpfs
 smartmontools
-snort
 spotify-launcher
 starship
 steam
