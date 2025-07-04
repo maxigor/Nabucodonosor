@@ -75,6 +75,7 @@ echo -ne "
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/alacritty /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/bspwm /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/dunst /home/$USERNAME/.config/
+ln -s /home/$USERNAME/nabucodonosor/configs/.config/neofetch /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/nvim /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/polybar /home/$USERNAME/.config/
 ln -s /home/$USERNAME/nabucodonosor/configs/.config/qBittorrent /home/$USERNAME/.config/
@@ -96,6 +97,7 @@ echo -ne "
 
 #anne pro 2 pt-br 4 the win
 setxkbmap -model abnt -layout us -variant intl
+cp {HOME}/nabucodonosor/configs/50-zsa.rules /etc/udev/rules.d/
 
 echo -ne "
 -------------------------------------------------------------------------
@@ -152,6 +154,18 @@ echo "enabling libvirtd"
 sudo systemctl enable --now libvirtd.service
 sudo systemctl start libvirtd.service
 
+echo -ne "
+-------------------------------------------------------------------------
+                        Setting up DNS
+-------------------------------------------------------------------------
+"
+
+echo "Configuring NextDNS..."
+
+sed -i '$' /etc/resolv.conf -e "$'nameserver 45.90.28.0'"
+sed -i '$' /etc/resolv.conf -e "$'nameserver 45.90.30.0'"
+
+echo "done"
 
 echo -ne "
 -------------------------------------------------------------------------
@@ -207,4 +221,6 @@ sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
 rm -r /home/$USERNAME/paru
 
 # Replace in the same state
+sudo chsh -s $(which /bin/zsh)
+timedatectl set-timezone America/Sao_Paulo
 cd $pwd

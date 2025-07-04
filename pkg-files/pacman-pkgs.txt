@@ -75,6 +75,7 @@ masscan
 meld
 ncdu
 nemo
+neofetch
 neovim
 net-tools
 networkmanager
@@ -98,6 +99,7 @@ picom
 pkgfile
 plocate
 plymouth
+pngcrush
 polybar
 postfix
 postgresql
@@ -146,6 +148,7 @@ udftools
 uget
 unrar
 unzip
+uthash
 veracrypt
 vim
 vlc

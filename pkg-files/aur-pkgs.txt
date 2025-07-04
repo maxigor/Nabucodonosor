@@ -1,7 +1,6 @@
 7-zip-full
 autojump                  
 brave-bin
-discord                       
 gtk-engine-murrine
 gtk-engines
 gtk3
@@ -13,7 +12,7 @@ moreutils
 mullvad-browser-bin
 nerd-fonts-complete
 openrazer
-picom-git
+plex-media-server
 plymouth                 
 polychromatic
 pulseaudio-control 

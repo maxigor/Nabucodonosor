@@ -2,9 +2,9 @@
 
 pgrep -x sxhkd >/dev/null || sxhkd &
 
-bspc monitor DP-0 -d I II III
+bspc monitor DP-2 -d I II III
 bspc monitor DP-4 -d IV V VI VII VIII IX X
-bspc monitor DP-2 -d
+bspc monitor DP-0 -d
 
 bspc config border_radius 3
 bspc config border_width 3
@@ -37,10 +37,16 @@ bspc rule -a 'steam' state=floating desktop='^5'
 bspc rule -a 'steamwebhelper' state=floating desktop='^5'
 bspc rule -a 'Hexchat' desktop="^7" follow=on
 bspc rule -a 'VirtualBox Manager' desktop="^6" follow=on state=floating
-bspc rule -a 'VirtualBox' desktop="^6" follow=on state=floating
+bspc rule -a 'VirtualBox' desktop="^6" state=floating
+bspc rule -a 'VirtualBoxVM' desktop="^6" state=floating
+bspc rule -a 'VirtualBox Machine' state=floating follow=on
 bspc rule -a 'Brave-browser' desktop="^9"
+bspc rule -a 'Protonvpn-app' state=floating 
+bspc rule -a 'Anki' state=floating 
+bspc rule -a 'vscodium' state=floating 
 
-xrandr --output DP-0 --rotate right --mode 1920x1080 --rate 60 --pos 0x0 --output DP-4 --primary --rotate normal --mode 1920x1080 --rate 165 --pos 1080x420 --output DP-2 --rotate normal --mode 1920x1080 --rate 165 --pos 3000x420
+
+xrandr --output DP-0 --rotate normal --mode 1920x1080 --rate 165 --pos 3000x420 --output DP-4 --primary --rotate normal --mode 1920x1080 --rate 165 --pos 1080x420 --output DP-2 --rotate right --mode 1920x1080 --rate 60 --pos 0x0
 xrdb $HOME/.Xresources
 $HOME/.config/polybar/launch.sh
 $HOME/.config/bspwm/autostart.sh

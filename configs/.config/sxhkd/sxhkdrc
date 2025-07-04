@@ -17,10 +17,14 @@ super + Escape
 #
 # bspwm hotkeys
 #
+super + e
+    nemo
+
+
 super + p
     flameshot gui
 
-super + ;
+super + u
     i3lock-fancy
 
 super + alt + {q,r}
